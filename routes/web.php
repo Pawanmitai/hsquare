@@ -1,6 +1,14 @@
 <?php
 
+use Doctrine\DBAL\Schema\Index;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\User\HomeController;
+use App\Http\Controllers\User\OfferController;
+use App\Http\Controllers\User\ProjectController;
+use App\Http\Controllers\User\MortagageController;
+use App\Http\Controllers\User\WhyHsquareController;
+use App\Http\Controllers\User\WhyInDubaiController;
+use App\Http\Controllers\User\SellerGuideController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +21,27 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+// Route::get('/', function () {
+//     return view('user.indexs');
+// });
+
+Route::get('/', [HomeController::class, 'index']);
+Route::group(['prefix' => 'in'], function () {
+    Route::get('/', [HomeController::class, 'index']);
+    Route::get('offer', [OfferController::class, 'index']);
+    Route::get('project', [ProjectController::class, 'index']);
+    Route::get('mortagage-assist', [MortagageController::class, 'index']);
+    Route::get('why-hsquare', [WhyHsquareController::class, 'index']);
+    Route::get('seller-guide', [SellerGuideController::class, 'index']);
+    
+});
+
+Route::group(['prefix' => 'uae'], function () {
+    Route::get('/', [HomeController::class, 'index']);
+    Route::get('why-in-dubai', [WhyInDubaiController::class, 'index']);
+    Route::get('offer', [OfferController::class, 'index']);
+    Route::get('project', [ProjectController::class, 'index']);
+    Route::get('mortagage-assist', [MortagageController::class, 'index']);
+    Route::get('why-hsquare', [WhyHsquareController::class, 'index']);
+    Route::get('seller-guide', [SellerGuideController::class, 'index']);
 });
