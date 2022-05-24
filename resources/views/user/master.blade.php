@@ -123,46 +123,6 @@
                                         <li><a href="{{ url_helper('/') }}">HOME</a></li>
                                             <ul class="sub-menu menu-pages-img-show">
                                                 <li>
-                                                    <a href="index.html">Home Style 01</a>
-                                                    <img src="img/home-demos/home-1.jpg" alt="#">
-                                                </li>
-                                                <li>
-                                                    <a href="index-2.html">Home Style 02</a>
-                                                    <img src="img/home-demos/home-2.jpg" alt="#">
-                                                </li>
-                                                <li>
-                                                    <a href="index-3.html">Home Style 03</a>
-                                                    <img src="img/home-demos/home-3.jpg" alt="#">
-                                                </li>
-                                                <li>
-                                                    <a href="index-4.html">Home Style 04</a>
-                                                    <img src="img/home-demos/home-4.jpg" alt="#">
-                                                </li>
-                                                <li>
-                                                    <a href="index-5.html">Home Style 05 <span class="menu-item-badge">video</span></a>
-                                                    <img src="img/home-demos/home-5.jpg" alt="#">
-                                                </li>
-                                                <li>
-                                                    <a href="index-6.html">Home Style 06</a>
-                                                    <img src="img/home-demos/home-6.jpg" alt="#">
-                                                </li>
-                                                <li>
-                                                    <a href="index-7.html">Home Style 07</a>
-                                                    <img src="img/home-demos/home-7.jpg" alt="#">
-                                                </li>
-                                                <li>
-                                                    <a href="index-8.html">Home Style 08</a>
-                                                    <img src="img/home-demos/home-8.jpg" alt="#">
-                                                </li>
-                                                <li>
-                                                    <a href="index-9.html">Home Style 09</a>
-                                                    <img src="img/home-demos/home-9.jpg" alt="#">
-                                                </li>
-                                                <li>
-                                                    <a href="index-10.html">Home Style 10 <span class="menu-item-badge">Map</span></a>
-                                                    <img src="img/home-demos/home-10.jpg" alt="#">
-                                                </li>
-                                                <li>
                                                     <a href="index-11.html">Home Style 11</a>
                                                     <img src="img/home-demos/home-11.jpg" alt="#">
                                                 </li>
@@ -183,7 +143,7 @@
                                         </li> 
                                                 
                                                 
-                                        <li><a href="contact.html">CONTACT</a></li>
+                                        <li><a href="{{ url_helper('contact')}}">CONTACT</a></li>
                                     </ul>
                                 </div>
                             </nav>
@@ -197,10 +157,10 @@
                                 <li>
                                     <a href="#"><i class="icon-user"></i></a>
                                     <ul>
-                                        <li><a href="login.html">Sign in</a></li>
-                                        <li><a href="register.html">Register</a></li>
-                                        <li><a href="account.html">My Account</a></li>
-                                        <li><a href="wishlist.html">Wishlist</a></li>
+                                        <li><a href="{{ url_helper('contact')}}">Sign in</a></li>
+                                        <li><a href="{{ url_helper('register')}}">Register</a></li>
+                                        <li><a href="{{ url_helper('my-account')}}">My Account</a></li>
+                                        <li><a href="{{ url_helper('wishlist')}}">Wishlist</a></li>
                                     </ul>
                                 </li>
                             </ul>
