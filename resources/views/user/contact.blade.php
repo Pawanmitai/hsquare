@@ -25,7 +25,7 @@
             </div>
             <div class="mini-cart-item clearfix">
                 <div class="mini-cart-img">
-                    <a href="#"><img src="img/product/2.png" alt="Image"></a>
+                    <a href="#"><img src="{{ userAsset('img/product/2.png')}}" alt="Image"></a>
                     <span class="mini-cart-item-delete"><i class="icon-cancel"></i></span>
                 </div>
                 <div class="mini-cart-info">
@@ -35,7 +35,7 @@
             </div>
             <div class="mini-cart-item clearfix">
                 <div class="mini-cart-img">
-                    <a href="#"><img src="img/product/3.png" alt="Image"></a>
+                    <a href="#"><img src="{{ userAsset('img/product/3.png')}}" alt="Image"></a>
                     <span class="mini-cart-item-delete"><i class="icon-cancel"></i></span>
                 </div>
                 <div class="mini-cart-info">
@@ -45,7 +45,7 @@
             </div>
             <div class="mini-cart-item clearfix">
                 <div class="mini-cart-img">
-                    <a href="#"><img src="img/product/4.png" alt="Image"></a>
+                    <a href="#"><img src="{{ userAsset('img/product/4.png')}}" alt="Image"></a>
                     <span class="mini-cart-item-delete"><i class="icon-cancel"></i></span>
                 </div>
                 <div class="mini-cart-info">
@@ -74,7 +74,7 @@
     <div class="ltn__utilize-menu-inner ltn__scrollbar">
         <div class="ltn__utilize-menu-head">
             <div class="site-logo">
-                <a href="index.html"><img src="img/logo.png" alt="Logo"></a>
+                <a href="index.html"><img src="{{ userAsset('img/logo.png')}}" alt="Logo"></a>
             </div>
             <button class="ltn__utilize-close">×</button>
         </div>
@@ -233,7 +233,7 @@
             <div class="col-lg-4">
                 <div class="ltn__contact-address-item ltn__contact-address-item-3 box-shadow">
                     <div class="ltn__contact-address-icon">
-                        <img src="img/icons/10.png" alt="Icon Image">
+                        <img src="{{ userAsset('img/icons/10.png')}}" alt="Icon Image">
                     </div>
                     <h3>Email Address</h3>
                     <p>info@hsquare.co.in<br>
@@ -243,7 +243,7 @@
             <div class="col-lg-4">
                 <div class="ltn__contact-address-item ltn__contact-address-item-3 box-shadow">
                     <div class="ltn__contact-address-icon">
-                        <img src="img/icons/11.png" alt="Icon Image">
+                        <img src="{{ userAsset('img/icons/11.png')}}" alt="Icon Image">
                     </div>
                     <h3>Phone Number</h3>
                     <p>+97 150-9612-860</p>
@@ -252,7 +252,7 @@
             <div class="col-lg-4">
                 <div class="ltn__contact-address-item ltn__contact-address-item-3 box-shadow">
                     <div class="ltn__contact-address-icon">
-                        <img src="img/icons/12.png" alt="Icon Image">
+                        <img src="{{ userAsset('img/icons/12.png')}}" alt="Icon Image">
                     </div>
                     <h3>Office Address</h3>
                     <p>1102-Shelton Cubix, Plot No 87, Sector 15, CBD Belapur, Navi Mumbai-400 614.</p>

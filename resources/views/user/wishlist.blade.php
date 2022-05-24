@@ -15,7 +15,7 @@
             <div class="mini-cart-product-area ltn__scrollbar">
                 <div class="mini-cart-item clearfix">
                     <div class="mini-cart-img">
-                        <a href="#"><img src="img/product/1.png" alt="Image"></a>
+                        <a href="#"><img src="{{ userAsset('img/product/1.png')}}" alt="Image"></a>
                         <span class="mini-cart-item-delete"><i class="icon-cancel"></i></span>
                     </div>
                     <div class="mini-cart-info">
@@ -25,7 +25,7 @@
                 </div>
                 <div class="mini-cart-item clearfix">
                     <div class="mini-cart-img">
-                        <a href="#"><img src="img/product/2.png" alt="Image"></a>
+                        <a href="#"><img src="{{ userAsset('img/product/2.png')}}" alt="Image"></a>
                         <span class="mini-cart-item-delete"><i class="icon-cancel"></i></span>
                     </div>
                     <div class="mini-cart-info">
@@ -35,7 +35,7 @@
                 </div>
                 <div class="mini-cart-item clearfix">
                     <div class="mini-cart-img">
-                        <a href="#"><img src="img/product/3.png" alt="Image"></a>
+                        <a href="#"><img src="{{ userAsset('img/product/3.png')}}" alt="Image"></a>
                         <span class="mini-cart-item-delete"><i class="icon-cancel"></i></span>
                     </div>
                     <div class="mini-cart-info">
@@ -45,7 +45,7 @@
                 </div>
                 <div class="mini-cart-item clearfix">
                     <div class="mini-cart-img">
-                        <a href="#"><img src="img/product/4.png" alt="Image"></a>
+                        <a href="#"><img src="{{ userAsset('img/product/4.png')}}" alt="Image"></a>
                         <span class="mini-cart-item-delete"><i class="icon-cancel"></i></span>
                     </div>
                     <div class="mini-cart-info">
@@ -74,7 +74,7 @@
         <div class="ltn__utilize-menu-inner ltn__scrollbar">
             <div class="ltn__utilize-menu-head">
                 <div class="site-logo">
-                    <a href="index.html"><img src="img/logo.png" alt="Logo"></a>
+                    <a href="index.html"><img src="{{ userAsset('img/logo.png')}}" alt="Logo"></a>
                 </div>
                 <button class="ltn__utilize-close">×</button>
             </div>
@@ -246,7 +246,7 @@
                                     <tr>
                                         <td class="cart-product-remove">x</td>
                                         <td class="cart-product-image">
-                                            <a href="product-details.html"><img src="img/product/1.png" alt="#"></a>
+                                            <a href="product-details.html"><img src="{{ userAsset('img/product/1.png')}}" alt="#"></a>
                                         </td>
                                         <td class="cart-product-info">
                                             <h4><a href="product-details.html">3 Rooms Manhattan</a></h4>
@@ -260,7 +260,7 @@
                                     <tr>
                                         <td class="cart-product-remove">x</td>
                                         <td class="cart-product-image">
-                                            <a href="product-details.html"><img src="img/product/2.png" alt="#"></a>
+                                            <a href="product-details.html"><img src="{{ userAsset('img/product/2.png')}}" alt="#"></a>
                                         </td>
                                         <td class="cart-product-info">
                                             <h4><a href="product-details.html">Shock Mount Insulator</a></h4>
@@ -274,7 +274,7 @@
                                     <tr>
                                         <td class="cart-product-remove">x</td>
                                         <td class="cart-product-image">
-                                            <a href="product-details.html"><img src="img/product/4.png" alt="#"></a>
+                                            <a href="product-details.html"><img src="{{ userAsset('img/product/4.png')}}" alt="#"></a>
                                         </td>
                                         <td class="cart-product-info">
                                             <h4><a href="product-details.html">Tail Light Lens</a></h4>

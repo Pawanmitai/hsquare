@@ -75,7 +75,7 @@
         <div class="ltn__utilize-menu-inner ltn__scrollbar">
             <div class="ltn__utilize-menu-head">
                 <div class="site-logo">
-                    <a href="index.html"><img src="img/logo.png" alt="Logo"></a>
+                    <a href="index.html"><img src="{{ userAsset('img/logo.png')}}" alt="Logo"></a>
                 </div>
                 <button class="ltn__utilize-close">×</button>
             </div>
@@ -301,7 +301,7 @@
                         <div style="height:20px;"></div>
                         
                         <div class="col-lg-12">
-                          <img src="img/projects/unione-banner.jpg" alt="Image ">
+                          <img src="{{ userAsset('img/projects/unione-banner.jpg')}}" alt="Image ">
                           </div>
                         <h4 class="title-2">Description</h4>
                         <p>You know that limits exist only in the mind. And therefore you rightly disdain the physical manifestation of limits.<br>
@@ -412,15 +412,15 @@
                             <div class="row">
                                 <div class="col-md-6">
                                     <a href="img/projects/unione-tower-1.webp" data-rel="lightcase:myCollection">
-                                        <img class="mb-30" src="img/projects/unione-tower-1.webp" alt="Image">
+                                        <img class="mb-30" src="{{ userAsset('img/projects/unione-tower-1.webp')}}" alt="Image">
                                     </a>
                                     <a href="img/projects/unione-tower-2.webp" data-rel="lightcase:myCollection">
-                                        <img class="mb-30" src="img/projects/unione-tower-2.webp" alt="Image">
+                                        <img class="mb-30" src="{{ userAsset('img/projects/unione-tower-2.webp')}}" alt="Image">
                                     </a>
                                 </div>
                                 <div class="col-md-6">
                                     <a href="img/projects/unione-tower-4.webp" data-rel="lightcase:myCollection">
-                                        <img class="mb-30" src="img/projects/unione-tower-4.webp" alt="Image"style="height: 420px";>
+                                        <img class="mb-30" src="{{ userAsset('img/projects/unione-tower-4.webp')}}" alt="Image"style="height: 420px";>
                                     </a>
                                 </div>
                             </div>
@@ -700,7 +700,7 @@
                                         <div class="row">
                                             <div class="col">
                                                 <div class="apartments-plan-img">
-                                                    <img src="img/projects/unione-floor-plan-1.webp" alt="#">
+                                                    <img src="{{ userAsset('img/projects/unione-floor-plan-1.webp')}}" alt="#">
                                                 </div>
                                             </div>
                                             <!--<div class="col-lg-5">-->
@@ -742,7 +742,7 @@
                                         <div class="row">
                                             <div class="col">
                                                 <div class="apartments-plan-img">
-                                                    <img src="img/projects/unione-floor-plan-2.webp" alt="#">
+                                                    <img src="{{ userAsset('img/projects/unione-floor-plan-2.webp')}}"  alt="#">
                                                 </div>
                                             </div>
                                             <!--<div class="col-lg-5">-->
@@ -1280,7 +1280,7 @@
                                 <div class="col-12">
                                     <div class="ltn__product-item ltn__product-item-4 ltn__product-item-5 text-center---">
                                         <div class="product-img">
-                                            <a href="thegateway.html"><img src="img/projects/gateway.webp" alt="#"></a>
+                                            <a href="thegateway.html"><img src="{{ userAsset('img/projects/gateway.webp')}}" alt="#"></a>
                                         <div class="real-estate-agent">
                                             <!--<div class="agent-img">-->
                                             <!--    <a href="team-details.html"><img src="img/blog/author.jpg" alt="#"></a>-->
@@ -1319,7 +1319,7 @@
                                 <div class="col-12">
                                     <div class="ltn__product-item ltn__product-item-4 ltn__product-item-5 text-center---">
                                         <div class="product-img">
-                                            <a href="Antalya-Elevation.html"><img src="img/gallery/antalya-elevation.webp" alt="#"></a>
+                                            <a href="Antalya-Elevation.html"><img src="{{ userAsset('img/gallery/antalya-elevation.webp')}}" alt="#"></a>
                                         <div class="real-estate-agent">
                                             <!--<div class="agent-img">-->
                                             <!--    <a href="team-details.html"><img src="img/blog/author.jpg" alt="#"></a>-->
@@ -1358,7 +1358,7 @@
                                 <div class="col-12">
                                     <div class="ltn__product-item ltn__product-item-4 ltn__product-item-5 text-center---">
                                         <div class="product-img">
-                                            <a href="product-details.html"><img src="img/projects/Golden-bay.webp" alt="#"></a>
+                                            <a href="product-details.html"><img src="{{ userAsset('img/projects/Golden-bay.webp')}}" alt="#"></a>
                                         <div class="real-estate-agent">
                                             <!--<div class="agent-img">-->
                                             <!--    <a href="team-details.html"><img src="img/blog/author.jpg" alt="#"></a>-->
@@ -1509,7 +1509,7 @@
                         <!--</div>-->
                         <!-- Banner Widget -->
                         <div class="widget ltn__banner-widget d-none">
-                            <a href="shop.html"><img src="img/banner/2.jpg" alt="#"></a>
+                            <a href="shop.html"><img src="{{ userAsset('img/banner/2.jpg')}}" alt="#"></a>
                         </div>
                     </aside>
                 </div>
@@ -1533,10 +1533,10 @@
                 <div class="col-xl-6 col-sm-6 col-12">
                     <div class="ltn__product-item ltn__product-item-4 ltn__product-item-5 text-center---">
                         <div class="product-img">
-                            <a href="product-details.html"><img src="img/product-3/1.jpg" alt="#"></a>
+                            <a href="product-details.html"><img src="{{ userAsset('img/product-3/1.jpg')}}" alt="#"></a>
                             <div class="real-estate-agent">
                                 <div class="agent-img">
-                                    <a href="team-details.html"><img src="img/blog/author.jpg" alt="#"></a>
+                                    <a href="team-details.html"><img src="{{ userAsset('img/blog/author.jpg')}}" alt="#"></a>
                                 </div>
                             </div>
                         </div>
@@ -1595,10 +1595,10 @@
                 <div class="col-xl-6 col-sm-6 col-12">
                     <div class="ltn__product-item ltn__product-item-4 ltn__product-item-5 text-center---">
                         <div class="product-img">
-                            <a href="product-details.html"><img src="img/product-3/2.jpg" alt="#"></a>
+                            <a href="product-details.html"><img src="{{ userAsset('img/product-3/2.jpg')}}" alt="#"></a>
                             <div class="real-estate-agent">
                                 <div class="agent-img">
-                                    <a href="team-details.html"><img src="img/blog/author.jpg" alt="#"></a>
+                                    <a href="team-details.html"><img src="{{ userAsset('img/blog/author.jpg')}}" alt="#"></a>
                                 </div>
                             </div>
                         </div>
@@ -1657,10 +1657,10 @@
                 <div class="col-xl-6 col-sm-6 col-12">
                     <div class="ltn__product-item ltn__product-item-4 ltn__product-item-5 text-center---">
                         <div class="product-img">
-                            <a href="product-details.html"><img src="img/product-3/3.jpg" alt="#"></a>
+                            <a href="product-details.html"><img src="{{ userAsset('img/product-3/3.jpg')}}" alt="#"></a>
                             <div class="real-estate-agent">
                                 <div class="agent-img">
-                                    <a href="team-details.html"><img src="img/blog/author.jpg" alt="#"></a>
+                                    <a href="team-details.html"><img src="{{ userAsset('img/blog/author.jpg')}}" alt="#"></a>
                                 </div>
                             </div>
                         </div>
@@ -1719,10 +1719,10 @@
                 <div class="col-xl-6 col-sm-6 col-12">
                     <div class="ltn__product-item ltn__product-item-4 ltn__product-item-5 text-center---">
                         <div class="product-img">
-                            <a href="product-details.html"><img src="img/product-3/4.jpg" alt="#"></a>
+                            <a href="product-details.html"><img src="{{ userAsset('img/product-3/4.jpg')}}"alt="#"></a>
                             <div class="real-estate-agent">
                                 <div class="agent-img">
-                                    <a href="team-details.html"><img src="img/blog/author.jpg" alt="#"></a>
+                                    <a href="team-details.html"><img src="{{ userAsset('img/blog/author.jpg')}}" alt="#"></a>
                                 </div>
                             </div>
                         </div>
@@ -1781,10 +1781,10 @@
                 <div class="col-xl-6 col-sm-6 col-12">
                     <div class="ltn__product-item ltn__product-item-4 ltn__product-item-5 text-center---">
                         <div class="product-img">
-                            <a href="product-details.html"><img src="img/product-3/5.jpg" alt="#"></a>
+                            <a href="product-details.html"><img src="{{ userAsset('img/product-3/5.jpg')}}" alt="#"></a>
                             <div class="real-estate-agent">
                                 <div class="agent-img">
-                                    <a href="team-details.html"><img src="img/blog/author.jpg" alt="#"></a>
+                                    <a href="team-details.html"><img src="{{ userAsset('img/blog/author.jpg')}}" alt="#"></a>
                                 </div>
                             </div>
                         </div>

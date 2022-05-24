@@ -300,7 +300,7 @@
                     <div style="height:20px;"></div>
                     
                     <div class="col-lg-12">
-                      <img src="img/projects/gateway-banner (2).jpg" alt="Image ">
+                      <img src="{{ userAsset('img/projects/gateway-banner (2).jpg')}}" alt="Image ">
                       </div>
                      
                     <h4 class="title-2">Description</h4>
@@ -405,24 +405,24 @@ fine art of living</p>
                         <div class="row">
                             <div class="col-md-6">
                                 <a href="img/projects/gateway-livingarea.jpg" data-rel="lightcase:myCollection">
-                                    <img class="mb-30" src="img/projects/gateway-livingarea.jpg" alt="Image">
+                                    <img class="mb-30" src="{{ userAsset('img/projects/gateway-livingarea.jpg')}}" alt="Image">
                                 </a>
                                 <a href="img/projects/gateway-lobby.jpg" data-rel="lightcase:myCollection">
-                                    <img class="mb-30" src="img/projects/gateway-lobby.jpg" alt="Image">
+                                    <img class="mb-30" src="{{ userAsset('img/projects/gateway-lobby.jpg')}}" alt="Image">
                                 </a>
                                 <a href="img/projects/gateway-pool.jpg" data-rel="lightcase:myCollection">
-                                    <img class="mb-30" src="img/projects/gateway-pool.jpg" alt="Image">
+                                    <img class="mb-30" src="{{ userAsset('img/projects/gateway-pool.jpg')}}" alt="Image">
                                 </a>
                             </div>
                             <div class="col-md-6">
                                 <a href="img/projects/gateway-clubhouse.jpg" data-rel="lightcase:myCollection">
-                                    <img class="mb-30" src="img/projects/gateway-clubhouse.jpg" alt="Image">
+                                    <img class="mb-30" src="{{ userAsset('img/projects/gateway-clubhouse.jpg')}}" alt="Image">
                                 </a>
                                 <a href="img/projects/gateway-bedroom.jpg" data-rel="lightcase:myCollection">
-                                    <img class="mb-30" src="img/projects/gateway-bedroom.jpg" alt="Image">
+                                    <img class="mb-30" src="{{ userAsset('img/projects/gateway-bedroom.jpg')}}" alt="Image">
                                 </a>
                                 <a href="img/projects/gateway-gym.jpg" data-rel="lightcase:myCollection">
-                                    <img class="mb-30" src="img/projects/gateway-gym.jpg" alt="Image">
+                                    <img class="mb-30" src="{{ userAsset('img/projects/gateway-gym.jpg')}}" alt="Image">
                                 </a>
                                 
                             </div>
@@ -704,7 +704,7 @@ fine art of living</p>
                  
                     </div>
                  <h4 class="title-2">Podium Master Layout Plan</h4>
-                 <img src="img/projects/gateway-masterplan.jpg" alt="#">
+                 <img src="{{ userAsset('img/projects/gateway-masterplan.jpg')}}" alt="#">
                     <!-- APARTMENTS PLAN AREA START -->
                     <!--<div class="ltn__apartments-plan-area product-details-apartments-plan mb-60">-->
                     <!--    <div class="ltn__tab-menu ltn__tab-menu-3 ltn__tab-menu-top-right-- text-uppercase--- text-center---">-->
@@ -1310,7 +1310,7 @@ fine art of living</p>
                             <div class="col-12">
                                 <div class="ltn__product-item ltn__product-item-4 ltn__product-item-5 text-center---">
                                     <div class="product-img">
-                                        <a href="Antalya-Elevation.html"><img src="img/gallery/antalya-elevation.webp" alt="#"></a>
+                                        <a href="Antalya-Elevation.html"><img src="{{ userAsset('img/gallery/antalya-elevation.webp')}}" alt="#"></a>
                                     <div class="real-estate-agent">
                                         <!--<div class="agent-img">-->
                                         <!--    <a href="team-details.html"><img src="img/blog/author.jpg" alt="#"></a>-->
@@ -1349,7 +1349,7 @@ fine art of living</p>
                             <div class="col-12">
                                 <div class="ltn__product-item ltn__product-item-4 ltn__product-item-5 text-center---">
                                     <div class="product-img">
-                                        <a href="product-details.html"><img src="img/projects/Golden-bay.webp" alt="#"></a>
+                                        <a href="product-details.html"><img src="{{ userAsset('img/projects/Golden-bay.webp')}}" alt="#"></a>
                                     <div class="real-estate-agent">
                                         <!--<div class="agent-img">-->
                                         <!--    <a href="team-details.html"><img src="img/blog/author.jpg" alt="#"></a>-->
@@ -1388,7 +1388,7 @@ fine art of living</p>
                             <div class="col-12">
                                 <div class="ltn__product-item ltn__product-item-4 ltn__product-item-5 text-center---">
                                     <div class="product-img">
-                                        <a href="unionetower.html"><img src="img/projects/unione.webp" alt="#"></a>
+                                        <a href="unionetower.html"><img src="{{ userAsset('img/projects/unione.webp')}}" alt="#"></a>
                                     <div class="real-estate-agent">
                                         <!--<div class="agent-img">-->
                                         <!--    <a href="team-details.html"><img src="img/blog/author.jpg" alt="#"></a>-->
@@ -1539,7 +1539,7 @@ fine art of living</p>
                     <!--</div>-->
                     <!-- Banner Widget -->
                     <div class="widget ltn__banner-widget d-none">
-                        <a href="shop.html"><img src="img/banner/2.jpg" alt="#"></a>
+                        <a href="shop.html"><img src="{{ userAsset('img/banner/2.jpg')}}" alt="#"></a>
                     </div>
                 </aside>
             </div>
@@ -1563,7 +1563,7 @@ fine art of living</p>
             <div class="col-xl-6 col-sm-6 col-12">
                 <div class="ltn__product-item ltn__product-item-4 ltn__product-item-5 text-center---">
                     <div class="product-img">
-                        <a href="product-details.html"><img src="img/product-3/1.jpg" alt="#"></a>
+                        <a href="product-details.html"><img src="{{ userAsset('img/product-3/1.jpg')}}" alt="#"></a>
                         <div class="real-estate-agent">
                             <!--<div class="agent-img">-->
                             <!--    <a href="team-details.html"><img src="img/blog/author.jpg" alt="#"></a>-->
@@ -1625,7 +1625,7 @@ fine art of living</p>
             <div class="col-xl-6 col-sm-6 col-12">
                 <div class="ltn__product-item ltn__product-item-4 ltn__product-item-5 text-center---">
                     <div class="product-img">
-                        <a href="product-details.html"><img src="img/product-3/2.jpg" alt="#"></a>
+                        <a href="product-details.html"><img src="{{ userAsset('img/product-3/2.jpg')}}" alt="#"></a>
                         <div class="real-estate-agent">
                             <!--<div class="agent-img">-->
                             <!--    <a href="team-details.html"><img src="img/blog/author.jpg" alt="#"></a>-->
@@ -1687,7 +1687,7 @@ fine art of living</p>
             <div class="col-xl-6 col-sm-6 col-12">
                 <div class="ltn__product-item ltn__product-item-4 ltn__product-item-5 text-center---">
                     <div class="product-img">
-                        <a href="product-details.html"><img src="img/product-3/3.jpg" alt="#"></a>
+                        <a href="product-details.html"><img src="{{ userAsset('img/product-3/3.jpg')}}" alt="#"></a>
                         <div class="real-estate-agent">
                             <!--<div class="agent-img">-->
                             <!--    <a href="team-details.html"><img src="img/blog/author.jpg" alt="#"></a>-->
@@ -1749,7 +1749,7 @@ fine art of living</p>
             <div class="col-xl-6 col-sm-6 col-12">
                 <div class="ltn__product-item ltn__product-item-4 ltn__product-item-5 text-center---">
                     <div class="product-img">
-                        <a href="product-details.html"><img src="img/product-3/4.jpg" alt="#"></a>
+                        <a href="product-details.html"><img src="{{ userAsset('img/product-3/4.jpg')}}" alt="#"></a>
                         <div class="real-estate-agent">
                             <!--<div class="agent-img">-->
                             <!--    <a href="team-details.html"><img src="img/blog/author.jpg" alt="#"></a>-->
@@ -1811,7 +1811,7 @@ fine art of living</p>
             <div class="col-xl-6 col-sm-6 col-12">
                 <div class="ltn__product-item ltn__product-item-4 ltn__product-item-5 text-center---">
                     <div class="product-img">
-                        <a href="product-details.html"><img src="img/product-3/5.jpg" alt="#"></a>
+                        <a href="product-details.html"><img src="{{ userAsset('img/product-3/5.jpg')}}" alt="#"></a>
                         <div class="real-estate-agent">
                             <!--<div class="agent-img">-->
                             <!--    <a href="team-details.html"><img src="img/blog/author.jpg" alt="#"></a>-->

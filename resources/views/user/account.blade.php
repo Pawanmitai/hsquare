@@ -15,7 +15,7 @@
             <div class="mini-cart-product-area ltn__scrollbar">
                 <div class="mini-cart-item clearfix">
                     <div class="mini-cart-img">
-                        <a href="#"><img src="img/product/1.png" alt="Image"></a>
+                        <a href="#"><img src="{{ userAsset('img/product/1.png')}}" alt="Image"></a>
                         <span class="mini-cart-item-delete"><i class="icon-cancel"></i></span>
                     </div>
                     <div class="mini-cart-info">
@@ -25,7 +25,7 @@
                 </div>
                 <div class="mini-cart-item clearfix">
                     <div class="mini-cart-img">
-                        <a href="#"><img src="img/product/2.png" alt="Image"></a>
+                        <a href="#"><img src="{{ userAsset('img/product/2.png')}}" alt="Image"></a>
                         <span class="mini-cart-item-delete"><i class="icon-cancel"></i></span>
                     </div>
                     <div class="mini-cart-info">
@@ -35,7 +35,7 @@
                 </div>
                 <div class="mini-cart-item clearfix">
                     <div class="mini-cart-img">
-                        <a href="#"><img src="img/product/3.png" alt="Image"></a>
+                        <a href="#"><img src="{{ userAsset('img/product/3.png')}}" alt="Image"></a>
                         <span class="mini-cart-item-delete"><i class="icon-cancel"></i></span>
                     </div>
                     <div class="mini-cart-info">
@@ -45,7 +45,7 @@
                 </div>
                 <div class="mini-cart-item clearfix">
                     <div class="mini-cart-img">
-                        <a href="#"><img src="img/product/4.png" alt="Image"></a>
+                        <a href="#"><img src="{{ userAsset('img/product/4.png')}}" alt="Image"></a>
                         <span class="mini-cart-item-delete"><i class="icon-cancel"></i></span>
                     </div>
                     <div class="mini-cart-info">
@@ -74,7 +74,7 @@
         <div class="ltn__utilize-menu-inner ltn__scrollbar">
             <div class="ltn__utilize-menu-head">
                 <div class="site-logo">
-                    <a href="index.html"><img src="img/logo.png" alt="Logo"></a>
+                    <a href="index.html"><img src="{{ userAsset('img/logo.png')}}" alt="Logo"></a>
                 </div>
                 <button class="ltn__utilize-close">×</button>
             </div>
@@ -265,7 +265,7 @@
                                                 <div class="ltn__comment-area mb-50">
                                                     <div class="ltn-author-introducing clearfix">
                                                         <div class="author-img">
-                                                            <img src="img/blog/author.jpg" alt="Author Image">
+                                                            <img src="{{ userAsset('img/blog/author.jpg')}}" alt="Author Image">
                                                         </div>
                                                         <div class="author-info">
                                                             <h6>Agent of Property</h6>
@@ -430,7 +430,7 @@
                                                         <tbody>
                                                           <tr>
                                                             <td class="ltn__my-properties-img">
-                                                                <a href="product-details.html"><img src="img/product-3/2.jpg" alt="#"></a>
+                                                                <a href="product-details.html"><img src="{{ userAsset('img/product-3/2.jpg')}}" alt="#"></a>
                                                             </td>
                                                             <td>
                                                                 <div class="ltn__my-properties-info">
@@ -454,7 +454,7 @@
                                                           </tr>
                                                           <tr>
                                                             <td class="ltn__my-properties-img">
-                                                                <a href="product-details.html"><img src="img/product-3/3.jpg" alt="#"></a>
+                                                                <a href="product-details.html"><img src="{{ userAsset('img/product-3/3.jpg')}}" alt="#"></a>
                                                             </td>
                                                             <td>
                                                                 <div class="ltn__my-properties-info">
@@ -478,7 +478,7 @@
                                                           </tr>
                                                           <tr>
                                                             <td class="ltn__my-properties-img">
-                                                                <a href="product-details.html"><img src="img/product-3/7.jpg" alt="#"></a>
+                                                                <a href="product-details.html"><img src="{{ userAsset('img/product-3/7.jpg')}}" alt="#"></a>
                                                             </td>
                                                             <td>
                                                                 <div class="ltn__my-properties-info">
@@ -534,7 +534,7 @@
                                                         <tbody>
                                                           <tr>
                                                             <td class="ltn__my-properties-img">
-                                                                <a href="product-details.html"><img src="img/product-3/2.jpg" alt="#"></a>
+                                                                <a href="product-details.html"><img src="{{ userAsset('img/product-3/2.jpg')}}" alt="#"></a>
                                                             </td>
                                                             <td>
                                                                 <div class="ltn__my-properties-info">
@@ -558,7 +558,7 @@
                                                           </tr>
                                                           <tr>
                                                             <td class="ltn__my-properties-img">
-                                                                <a href="product-details.html"><img src="img/product-3/3.jpg" alt="#"></a>
+                                                                <a href="product-details.html"><img src="{{ userAsset('img/product-3/3.jpg')}}" alt="#"></a>
                                                             </td>
                                                             <td>
                                                                 <div class="ltn__my-properties-info">
@@ -582,7 +582,7 @@
                                                           </tr>
                                                           <tr>
                                                             <td class="ltn__my-properties-img">
-                                                                <a href="product-details.html"><img src="img/product-3/7.jpg" alt="#"></a>
+                                                                <a href="product-details.html"><img src="{{ userAsset('img/product-3/7.jpg')}}" alt="#"></a>
                                                             </td>
                                                             <td>
                                                                 <div class="ltn__my-properties-info">
@@ -1235,7 +1235,7 @@
                                                                 <!-- card -->
                                                                 <div class="card">
                                                                     <h5 class="collapsed ltn__card-title" data-toggle="collapse" data-target="#faq-item-2-3" aria-expanded="false" >
-                                                                        PayPal <img src="img/icons/payment-3.png" alt="#">
+                                                                        PayPal <img src="{{ userAsset('img/icons/payment-3.png')}}" alt="#">
                                                                     </h5>
                                                                     <div id="faq-item-2-3" class="collapse" data-parent="#checkout_accordion_1">
                                                                         <div class="card-body">

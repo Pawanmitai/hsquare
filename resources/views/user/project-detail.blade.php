@@ -300,7 +300,7 @@
                         <label><span class="ltn__secondary-color"><i class="flaticon-pin"></i></span> 29 Golden Bay Belapur</label>
                          <div style="height:20px;"></div>
                         <div class="col-lg-12">
-                          <img src="img/projects/golden-bay-banner (3).jpg" alt="Image ">
+                          <img src="{{ userAsset('img/projects/golden-bay-banner (3).jpg')}}" alt="Image ">
                           </div>
                         <h4 class="title-2">Description</h4>
                         <p>FORETELLING THE SAGA OF SUCCESS THAT IS AS RADIANT AS 24K GOLD<BR>
@@ -412,18 +412,18 @@ The elite edifice that weighs the worth in gold is articulately designed to meas
                             <div class="row">
                                 <div class="col-md-6">
                                     <a href="img/gallery/golden-bay-1.jpg" data-rel="lightcase:myCollection">
-                                        <img class="mb-30" src="img/gallery/golden-bay-1.jpg" alt="Image">
+                                        <img class="mb-30" src="{{ userAsset('img/gallery/golden-bay-1.jpg')}}" alt="Image">
                                     </a>
                                     <a href="img/gallery/golden-bay-2.jpg" data-rel="lightcase:myCollection">
-                                        <img class="mb-30" src="img/gallery/golden-bay-2.jpg" alt="Image">
+                                        <img class="mb-30" src="{{ userAsset('img/gallery/golden-bay-2.jpg')}}" alt="Image">
                                     </a>
                                 </div>
                                 <div class="col-md-6">
                                     <a href="img/gallery/golden-bay-3.jpg" data-rel="lightcase:myCollection">
-                                        <img class="mb-30" src="img/gallery/golden-bay-3.jpg" alt="Image">
+                                        <img class="mb-30" src="{{ userAsset('img/gallery/golden-bay-3.jpg')}}" alt="Image">
                                     </a>
                                     <a href="img/gallery/golden-bay-4.jpg" data-rel="lightcase:myCollection">
-                                        <img class="mb-30" src="img/gallery/golden-bay-4.jpg" alt="Image">
+                                        <img class="mb-30" src="{{ userAsset('img/gallery/golden-bay-4.jpg')}}" alt="Image">
                                     </a>
                                 </div>
                             </div>
@@ -570,7 +570,7 @@ The elite edifice that weighs the worth in gold is articulately designed to meas
                                         <div class="row">
                                             <div class="col">
                                                 <div class="apartments-plan-img">
-                                                    <img src="img/projects/goldenbay-basement (2).jpg" alt="#">
+                                                    <img src="{{ userAsset('img/projects/goldenbay-basement (2).jpg')}}" alt="image">
                                                     <h4>First Basement Floor Plan</h4>
                                                 </div>
                                             </div>
@@ -611,7 +611,7 @@ The elite edifice that weighs the worth in gold is articulately designed to meas
                                         <div class="row">
                                             <div class="col">
                                                 <div class="apartments-plan-img">
-                                                    <img src="img/projects/goldenbay-basement-2 (1).jpg" alt="#">
+                                                    <img src="{{ userAsset('img/projects/goldenbay-basement-2 (1).jpg')}}" alt="#">
                                                     <h4>Second & Third Basement  Floor Plan</h4>
                                                 </div>
                                             </div>
@@ -651,7 +651,7 @@ The elite edifice that weighs the worth in gold is articulately designed to meas
                                         <div class="row">
                                             <div class="col">
                                                 <div class="apartments-plan-img">
-                                                    <img src="img/projects/goldenbay-ground-floor-plan (2).jpg" alt="#">
+                                                    <img src="{{ userAsset('img/projects/goldenbay-ground-floor-plan (2).jpg')}}" alt="#">
                                                     <h4>Ground Floor Plan</h4>
                                                 </div>
                                             </div>
@@ -691,7 +691,7 @@ The elite edifice that weighs the worth in gold is articulately designed to meas
                                         <div class="row">
                                             <div class="col">
                                                 <div class="apartments-plan-img">
-                                                    <img src="img/projects/goldenbay-typical-1.jpg" alt="#">
+                                                    <img src="{{ userAsset('img/projects/goldenbay-typical-1.jpg')}}" alt="#">
                                                     <h4>Typical Floor Plan (Second to Thirteen Floor)</h4>
                                                 </div>
                                             </div>
@@ -1145,7 +1145,7 @@ The elite edifice that weighs the worth in gold is articulately designed to meas
                                 <div class="col-12">
                                     <div class="ltn__product-item ltn__product-item-4 ltn__product-item-5 text-center---">
                                         <div class="product-img">
-                                            <a href="thegateway.html"><img src="img/projects/gateway.webp" alt="#"></a>
+                                            <a href="thegateway.html"><img src="{{ userAsset('img/projects/gateway.webp')}}" alt="#"></a>
                                         <div class="real-estate-agent">
                                             <div class="agent-img">
                                                 <!--<a href="team-details.html"><img src="img/blog/author.jpg" alt="#"></a>-->
@@ -1184,7 +1184,7 @@ The elite edifice that weighs the worth in gold is articulately designed to meas
                                 <div class="col-12">
                                     <div class="ltn__product-item ltn__product-item-4 ltn__product-item-5 text-center---">
                                         <div class="product-img">
-                                             <a href="unionetower.html"><img src="img/projects/unione.webp" alt="#"></a>
+                                             <a href="unionetower.html"><img src="{{ userAsset('img/projects/unione.webp')}}" alt="#"></a>
                                         <!--<div class="real-estate-agent">-->
                                             <!--<div class="agent-img">-->
                                             <!--    <a href="team-details.html"><img src="img/blog/author.jpg" alt="#"></a>-->
@@ -1372,7 +1372,7 @@ The elite edifice that weighs the worth in gold is articulately designed to meas
                         <!--</div>-->
                         <!-- Banner Widget -->
                         <div class="widget ltn__banner-widget d-none">
-                            <a href="shop.html"><img src="img/banner/2.jpg" alt="#"></a>
+                            <a href="shop.html"><img src="{{ userAsset('img/banner/2.jpg')}}" alt="#"></a>
                         </div>
                     </aside>
                 </div>
@@ -1396,7 +1396,7 @@ The elite edifice that weighs the worth in gold is articulately designed to meas
                 <div class="col-xl-6 col-sm-6 col-12">
                     <div class="ltn__product-item ltn__product-item-4 ltn__product-item-5 text-center---">
                         <div class="product-img">
-                            <a href="product-details.html"><img src="img/product-3/1.jpg" alt="#"></a>
+                            <a href="product-details.html"><img src="{{ userAsset('img/product-3/1.jpg')}}" alt="#"></a>
                             <div class="real-estate-agent">
                                 <div class="agent-img">
                                     <!--<a href="team-details.html"><img src="img/blog/author.jpg" alt="#"></a>-->
@@ -1458,7 +1458,7 @@ The elite edifice that weighs the worth in gold is articulately designed to meas
                 <div class="col-xl-6 col-sm-6 col-12">
                     <div class="ltn__product-item ltn__product-item-4 ltn__product-item-5 text-center---">
                         <div class="product-img">
-                            <a href="product-details.html"><img src="img/product-3/2.jpg" alt="#"></a>
+                            <a href="product-details.html"><img src="{{ userAsset('img/product-3/2.jpg')}}" alt="#"></a>
                             <div class="real-estate-agent">
                                 <div class="agent-img">
                                     <!--<a href="team-details.html"><img src="img/blog/author.jpg" alt="#"></a>-->
@@ -1520,7 +1520,7 @@ The elite edifice that weighs the worth in gold is articulately designed to meas
                 <div class="col-xl-6 col-sm-6 col-12">
                     <div class="ltn__product-item ltn__product-item-4 ltn__product-item-5 text-center---">
                         <div class="product-img">
-                            <a href="product-details.html"><img src="img/product-3/3.jpg" alt="#"></a>
+                            <a href="product-details.html"><img src="{{ userAsset('img/product-3/3.jpg')}}" alt="#"></a>
                             <div class="real-estate-agent">
                                 <div class="agent-img">
                                     <!--<a href="team-details.html"><img src="img/blog/author.jpg" alt="#"></a>-->
@@ -1582,7 +1582,7 @@ The elite edifice that weighs the worth in gold is articulately designed to meas
                 <div class="col-xl-6 col-sm-6 col-12">
                     <div class="ltn__product-item ltn__product-item-4 ltn__product-item-5 text-center---">
                         <div class="product-img">
-                            <a href="product-details.html"><img src="img/product-3/4.jpg" alt="#"></a>
+                            <a href="product-details.html"><img src="{{ userAsset('img/product-3/4.jpg')}}" alt="#"></a>
                             <div class="real-estate-agent">
                                 <div class="agent-img">
                                     <!--<a href="team-details.html"><img src="img/blog/author.jpg" alt="#"></a>-->
@@ -1644,7 +1644,7 @@ The elite edifice that weighs the worth in gold is articulately designed to meas
                 <div class="col-xl-6 col-sm-6 col-12">
                     <div class="ltn__product-item ltn__product-item-4 ltn__product-item-5 text-center---">
                         <div class="product-img">
-                            <a href="product-details.html"><img src="img/product-3/5.jpg" alt="#"></a>
+                            <a href="product-details.html"><img src="{{ userAsset('img/product-3/5.jpg')}}" alt="#"></a>
                             <div class="real-estate-agent">
                                 <div class="agent-img">
                                     <!--<a href="team-details.html"><img src="img/blog/author.jpg" alt="#"></a>-->
