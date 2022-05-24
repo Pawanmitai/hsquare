@@ -5,7 +5,7 @@ namespace App\Http\Controllers\User;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
-class MortagageController extends Controller
+class AboutController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,11 +14,8 @@ class MortagageController extends Controller
      */
     public function index()
     {
-        return userView('mortagage-assist');
+        return userView('about');
     }
 
-    public function blogDetail()
-    {
-        return userView('blog-detail');
-    }
+    
 }

@@ -101,13 +101,13 @@
 
                             
                             @if(Request::segment(1) === 'uae')
-                                <button type="button" id="flag-btn" data-toggle="modal" data-target="#countryModal" class="country-flag popup-with-zoom-anim" data-tippy-placement="right" data-tippy="">
-                                    <img src="{{ userAsset('img/flag/uae.png')}}">
-                                </button>
+                                <a href="javascript:void(0)" data-toggle="modal" data-target="#countryModal" class="shadow-none" data-tippy-placement="right" data-tippy="">
+                                    <img src="{{ userAsset('img/flag/uae1.jpg')}}">
+                                </a>
                             @else
-                                <button type="button" id="flag-btn" data-toggle="modal" data-target="#countryModal" class="country-flag popup-with-zoom-anim" data-tippy-placement="right" data-tippy="">
-                                    <img src="{{ userAsset('img/flag/in.png')}}">
-                                </button>
+                            <a href="javascript:void(0)" data-toggle="modal" data-target="#countryModal" class="shadow-none" data-tippy-placement="right" data-tippy="">
+                                <img src="{{ userAsset('img/flag/in1.jpg')}}">
+                            </a>
                                
                             @endif
                             
@@ -157,7 +157,7 @@
                                 <li>
                                     <a href="#"><i class="icon-user"></i></a>
                                     <ul>
-                                        <li><a href="{{ url_helper('contact')}}">Sign in</a></li>
+                                        <li><a href="{{ url_helper('login')}}">Sign in</a></li>
                                         <li><a href="{{ url_helper('register')}}">Register</a></li>
                                         <li><a href="{{ url_helper('my-account')}}">My Account</a></li>
                                         <li><a href="{{ url_helper('wishlist')}}">Wishlist</a></li>
@@ -191,26 +191,26 @@
   <div class="modal fade" id="countryModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
-        <div class="modal-header">
+        {{-- <div class="modal-header">
         <h5 class="modal-title" id="exampleModalLongTitle">Select Country</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
         </button>
-        </div>
+        </div> --}}
         <div class="modal-body">
             <div class="row">
                 <div class="col-sm-6 text-center">
-                    <img src="{{ userAsset('img/flag/in.png')}}">
+                    <img src="{{ userAsset('img/flag/in1.jpg')}}">
                     <a href="{{ url('/in/')}}" class="country-flag popup-with-zoom-anim country-slector" data-country-code="in" data-tippy-placement="left" data-tippy="">India</a>
                 </div>
                 <div class="col-sm-6 text-center">
-                    <img src="{{ userAsset('img/flag/uae.png')}}">
+                    <img src="{{ userAsset('img/flag/uae1.jpg')}}">
                     <a href="{{ url('/uae/')}}" class="country-flag popup-with-zoom-anim country-slector" data-country-code="uae" data-tippy-placement="left" data-tippy="">UAE</a>
                 </div>
             </div>
            
         </div>
-        <div class="modal-footer"></div>
+        {{-- <div class="modal-footer"></div> --}}
     </div>
     </div>
 </div>

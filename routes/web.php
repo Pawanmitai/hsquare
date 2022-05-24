@@ -3,6 +3,7 @@
 use Doctrine\DBAL\Schema\Index;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\User\HomeController;
+use App\Http\Controllers\User\AboutController;
 use App\Http\Controllers\User\LoginController;
 use App\Http\Controllers\User\OfferController;
 use App\Http\Controllers\User\ContactController;
@@ -43,6 +44,20 @@ Route::group(['prefix' => 'in'], function () {
     Route::get('login', [LoginController::class, 'index']);
     Route::get('my-account', [MyAccountController::class, 'index']);
     Route::get('wishlist', [WishlistController::class, 'index']);
+    Route::get('about', [AboutController::class, 'index']);
+    Route::get('blog-detail', [MortagageController::class, 'blogDetail']);
+    Route::get('project-detail', function () {
+        return userView('project-detail');
+    });
+    Route::get('union-tower', function () {
+        return userView('union-tower');
+    });
+    Route::get('gateway', function () {
+        return userView('gateway');
+    });
+    Route::get('elevation', function () {
+        return userView('elevation');
+    });
     
 });
 
@@ -59,4 +74,20 @@ Route::group(['prefix' => 'uae'], function () {
     Route::get('login', [LoginController::class, 'index']);
     Route::get('my-account', [MyAccountController::class, 'index']);
     Route::get('wishlist', [WishlistController::class, 'index']);
+    Route::get('about', [AboutController::class, 'index']);
+    Route::get('blog-detail', [MortagageController::class, 'blogDetail']);
+
+    Route::get('project-detail', function () {
+        return userView('project-detail');
+    });
+    Route::get('union-tower', function () {
+        return userView('union-tower');
+    });
+    Route::get('gateway', function () {
+        return userView('gateway');
+    });
+    Route::get('elevation', function () {
+        return userView('elevation');
+    });
+
 });

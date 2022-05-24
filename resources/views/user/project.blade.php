@@ -121,7 +121,7 @@
                             <li><a href="shop-grid.html">Shop Grid</a></li>
                             <li><a href="shop-left-sidebar.html">Shop Left sidebar</a></li>
                             <li><a href="shop-right-sidebar.html">Shop right sidebar</a></li>
-                            <li><a href="product-details.html">Shop details </a></li>
+                            <li><a href="{{url_helper('project-detail')}}">Shop details </a></li>
                             <li><a href="cart.html">Cart</a></li>
                             <li><a href="wishlist.html">Wishlist</a></li>
                             <li><a href="checkout.html">Checkout</a></li>
@@ -287,7 +287,7 @@
                                     <div class="col-xl-6 col-sm-6 col-12">
                                         <div class="ltn__product-item ltn__product-item-4 ltn__product-item-5 text-center---">
                                             <div class="product-img">
-                                                <a href="product-details.html"><img src="{{ userAsset('img/projects/Golden-bay.webp')}}" alt="#"></a>
+                                                <a href="{{url_helper('project-detail')}}"><img src="{{ userAsset('img/projects/Golden-bay.webp')}}" alt="#"></a>
                                                 <div class="real-estate-agent">
                                                     <!--<div class="agent-img">-->
                                                     <!--    <a href="team-details.html"><img src="img/blog/author.jpg" alt="#"></a>-->
@@ -300,7 +300,7 @@
                                                         <li class="sale-badg">For Rent & Sale</li>
                                                     </ul>
                                                 </div>
-                                                <h2 class="product-title"><a href="product-details.html">29 Golden Bay</a></h2>
+                                                <h2 class="product-title"><a href="{{url_helper('project-detail')}}">29 Golden Bay</a></h2>
                                                 <div class="product-img-location">
                                                     <ul>
                                                         <li>
@@ -331,7 +331,7 @@
                                                 <!--                <i class="flaticon-heart-1"></i></a>-->
                                                 <!--        </li>-->
                                                 <!--        <li>-->
-                                                <!--            <a href="product-details.html" title="Product Details">-->
+                                                <!--            <a href="{{url_helper('project-detail')}}" title="Product Details">-->
                                                 <!--                <i class="flaticon-add"></i>-->
                                                 <!--            </a>-->
                                                 <!--        </li>-->
@@ -354,7 +354,7 @@
                                     <div class="col-xl-6 col-sm-6 col-12">
                                         <div class="ltn__product-item ltn__product-item-4 ltn__product-item-5 text-center---">
                                             <div class="product-img">
-                                                <a href="thegateway.html"><img src="{{ userAsset('img/projects/gateway.webp')}}" alt="#"></a>
+                                                <a href="{{url_helper('gateway')}}"><img src="{{ userAsset('img/projects/gateway.webp')}}" alt="#"></a>
                                                 <div class="real-estate-agent">
                                                     <!--<div class="agent-img">-->
                                                     <!--    <a href="team-details.html"><img src="img/blog/author.jpg" alt="#"></a>-->
@@ -367,7 +367,7 @@
                                                         <li class="sale-badg">For Rent & Sale</li>
                                                     </ul>
                                                 </div>
-                                                <h2 class="product-title"><a href="thegateway.html">The Gateway</a></h2>
+                                                <h2 class="product-title"><a href="{{url_helper('gateway')}}">The Gateway</a></h2>
                                                 <div class="product-img-location">
                                                     <ul>
                                                         <li>
@@ -398,7 +398,7 @@
                                                 <!--                <i class="flaticon-heart-1"></i></a>-->
                                                 <!--        </li>-->
                                                 <!--        <li>-->
-                                                <!--            <a href="thegateway.html" title="thegateway">-->
+                                                <!--            <a href="{{url_helper('gateway')}}" title="thegateway">-->
                                                 <!--                <i class="flaticon-add"></i>-->
                                                 <!--            </a>-->
                                                 <!--        </li>-->
@@ -421,7 +421,7 @@
                                     <div class="col-xl-6 col-sm-6 col-12">
                                         <div class="ltn__product-item ltn__product-item-4 ltn__product-item-5 text-center---">
                                             <div class="product-img">
-                                                <a href="unionetower.html"><img src="{{ userAsset('img/projects/unione.webp')}}" alt="#"></a>
+                                                <a href="{{url_helper('union-tower')}}"><img src="{{ userAsset('img/projects/unione.webp')}}" alt="#"></a>
                                                 <div class="real-estate-agent">
                                                     <!--<div class="agent-img">-->
                                                     <!--    <a href="team-details.html"><img src="img/blog/author.jpg" alt="#"></a>-->
@@ -434,7 +434,7 @@
                                                         <li class="sale-badg">For Rent & Sale</li>
                                                     </ul>
                                                 </div>
-                                                <h2 class="product-title"><a href="unionetower.html">Unione Tower</a></h2>
+                                                <h2 class="product-title"><a href="{{url_helper('union-tower')}}">Unione Tower</a></h2>
                                                 <div class="product-img-location">
                                                     <ul>
                                                         <li>
@@ -465,7 +465,7 @@
                                                 <!--                <i class="flaticon-heart-1"></i></a>-->
                                                 <!--        </li>-->
                                                 <!--        <li>-->
-                                                <!--            <a href="unionetower.html" title="unionetower">-->
+                                                <!--            <a href="{{url_helper('union-tower')}}" title="unionetower">-->
                                                 <!--                <i class="flaticon-add"></i>-->
                                                 <!--            </a>-->
                                                 <!--        </li>-->
@@ -488,7 +488,7 @@
                                     <div class="col-xl-6 col-sm-6 col-12">
                                         <div class="ltn__product-item ltn__product-item-4 ltn__product-item-5 text-center---">
                                             <div class="product-img">
-                                                <a href="Antalya-Elevation.html"><img src="{{ userAsset('img/gallery/antalya-elevation.webp')}}" alt="#"></a>
+                                                <a href="{{url_helper('elevation')}}"><img src="{{ userAsset('img/gallery/antalya-elevation.webp')}}" alt="#"></a>
                                                 <div class="real-estate-agent">
                                                     <!--<div class="agent-img">-->
                                                     <!--    <a href="team-details.html"><img src="img/blog/author.jpg" alt="#"></a>-->
@@ -501,7 +501,7 @@
                                                         <li class="sale-badg">For Rent & Sale</li>
                                                     </ul>
                                                 </div>
-                                                <h2 class="product-title"><a href="Antalya-Elevation.html">CBD</a></h2>
+                                                <h2 class="product-title"><a href="{{url_helper('elevation')}}">CBD</a></h2>
                                                 <div class="product-img-location">
                                                     <ul>
                                                         <li>
@@ -532,7 +532,7 @@
                                                 <!--                <i class="flaticon-heart-1"></i></a>-->
                                                 <!--        </li>-->
                                                 <!--        <li>-->
-                                                <!--            <a href="Antalya-Elevation.html" title="Antalya Elevation">-->
+                                                <!--            <a href="{{url_helper('elevation')}}" title="Antalya Elevation">-->
                                                 <!--                <i class="flaticon-add"></i>-->
                                                 <!--            </a>-->
                                                 <!--        </li>-->
@@ -556,7 +556,7 @@
                                     <!--<div class="col-xl-6 col-sm-6 col-12">-->
                                     <!--    <div class="ltn__product-item ltn__product-item-4 ltn__product-item-5 text-center---">-->
                                     <!--        <div class="product-img">-->
-                                    <!--            <a href="product-details.html"><img src="img/product-3/5.jpg" alt="#"></a>-->
+                                    <!--            <a href="{{url_helper('project-detail')}}"><img src="img/product-3/5.jpg" alt="#"></a>-->
                                     <!--            <div class="real-estate-agent">-->
                                     <!--                <div class="agent-img">-->
                                     <!--                    <a href="team-details.html"><img src="img/blog/author.jpg" alt="#"></a>-->
@@ -569,7 +569,7 @@
                                     <!--                    <li class="sale-badg">For Rent</li>-->
                                     <!--                </ul>-->
                                     <!--            </div>-->
-                                    <!--            <h2 class="product-title"><a href="product-details.html">New Apartment Nice View</a></h2>-->
+                                    <!--            <h2 class="product-title"><a href="{{url_helper('project-detail')}}">New Apartment Nice View</a></h2>-->
                                     <!--            <div class="product-img-location">-->
                                     <!--                <ul>-->
                                     <!--                    <li>-->
@@ -600,7 +600,7 @@
                                     <!--                            <i class="flaticon-heart-1"></i></a>-->
                                     <!--                    </li>-->
                                     <!--                    <li>-->
-                                    <!--                        <a href="product-details.html" title="Product Details">-->
+                                    <!--                        <a href="{{url_helper('project-detail')}}" title="Product Details">-->
                                     <!--                            <i class="flaticon-add"></i>-->
                                     <!--                        </a>-->
                                     <!--                    </li>-->
@@ -618,7 +618,7 @@
                                     <!--<div class="col-xl-6 col-sm-6 col-12">-->
                                     <!--    <div class="ltn__product-item ltn__product-item-4 ltn__product-item-5 text-center---">-->
                                     <!--        <div class="product-img">-->
-                                    <!--            <a href="product-details.html"><img src="img/product-3/6.jpg" alt="#"></a>-->
+                                    <!--            <a href="{{url_helper('project-detail')}}"><img src="img/product-3/6.jpg" alt="#"></a>-->
                                     <!--            <div class="real-estate-agent">-->
                                     <!--                <div class="agent-img">-->
                                     <!--                    <a href="team-details.html"><img src="img/blog/author.jpg" alt="#"></a>-->
@@ -631,7 +631,7 @@
                                     <!--                    <li class="sale-badg">For Rent</li>-->
                                     <!--                </ul>-->
                                     <!--            </div>-->
-                                    <!--            <h2 class="product-title"><a href="product-details.html">New Apartment Nice View</a></h2>-->
+                                    <!--            <h2 class="product-title"><a href="{{url_helper('project-detail')}}">New Apartment Nice View</a></h2>-->
                                     <!--            <div class="product-img-location">-->
                                     <!--                <ul>-->
                                     <!--                    <li>-->
@@ -662,7 +662,7 @@
                                     <!--                            <i class="flaticon-heart-1"></i></a>-->
                                     <!--                    </li>-->
                                     <!--                    <li>-->
-                                    <!--                        <a href="product-details.html" title="Product Details">-->
+                                    <!--                        <a href="{{url_helper('project-detail')}}" title="Product Details">-->
                                     <!--                            <i class="flaticon-add"></i>-->
                                     <!--                        </a>-->
                                     <!--                    </li>-->
@@ -696,7 +696,7 @@
                                     <div class="col-lg-12">
                                         <div class="ltn__product-item ltn__product-item-4 ltn__product-item-5">
                                             <div class="product-img">
-                                                <a href="product-details.html"><img src="{{ userAsset('img/product-3/1.jpg')}}" alt="#"></a>
+                                                <a href="{{url_helper('project-detail')}}"><img src="{{ userAsset('img/product-3/1.jpg')}}" alt="#"></a>
                                             </div>
                                             <div class="product-info">
                                                 <div class="product-badge-price">
@@ -709,7 +709,7 @@
                                                         <span>$34,900<label>/Month</label></span>
                                                     </div>
                                                 </div>
-                                                <h2 class="product-title"><a href="product-details.html">New Apartment Nice View</a></h2>
+                                                <h2 class="product-title"><a href="{{url_helper('project-detail')}}">New Apartment Nice View</a></h2>
                                                 <div class="product-img-location">
                                                     <ul>
                                                         <li>
@@ -751,7 +751,7 @@
                                                                 <i class="flaticon-heart-1"></i></a>
                                                         </li>
                                                         <li>
-                                                            <a href="product-details.html" title="Product Details">
+                                                            <a href="{{url_helper('project-detail')}}" title="Product Details">
                                                                 <i class="flaticon-add"></i>
                                                             </a>
                                                         </li>
@@ -764,7 +764,7 @@
                                     <div class="col-lg-12">
                                         <div class="ltn__product-item ltn__product-item-4 ltn__product-item-5">
                                             <div class="product-img">
-                                                <a href="product-details.html"><img src="{{ userAsset('img/product-3/2.jpg')}}" alt="#"></a>
+                                                <a href="{{url_helper('project-detail')}}"><img src="{{ userAsset('img/product-3/2.jpg')}}" alt="#"></a>
                                             </div>
                                             <div class="product-info">
                                                 <div class="product-badge-price">
@@ -777,7 +777,7 @@
                                                         <span>$34,900<label>/Month</label></span>
                                                     </div>
                                                 </div>
-                                                <h2 class="product-title"><a href="product-details.html">New Apartment Nice View</a></h2>
+                                                <h2 class="product-title"><a href="{{url_helper('project-detail')}}">New Apartment Nice View</a></h2>
                                                 <div class="product-img-location">
                                                     <ul>
                                                         <li>
@@ -819,7 +819,7 @@
                                                                 <i class="flaticon-heart-1"></i></a>
                                                         </li>
                                                         <li>
-                                                            <a href="product-details.html" title="Product Details">
+                                                            <a href="{{url_helper('project-detail')}}" title="Product Details">
                                                                 <i class="flaticon-add"></i>
                                                             </a>
                                                         </li>
@@ -832,7 +832,7 @@
                                     <div class="col-lg-12">
                                         <div class="ltn__product-item ltn__product-item-4 ltn__product-item-5">
                                             <div class="product-img">
-                                                <a href="product-details.html"><img src= "{{ userAsset('img/product-3/3.jpg')}}" alt="#"></a>
+                                                <a href="{{url_helper('project-detail')}}"><img src= "{{ userAsset('img/product-3/3.jpg')}}" alt="#"></a>
                                             </div>
                                             <div class="product-info">
                                                 <div class="product-badge-price">
@@ -845,7 +845,7 @@
                                                         <span>$34,900<label>/Month</label></span>
                                                     </div>
                                                 </div>
-                                                <h2 class="product-title"><a href="product-details.html">New Apartment Nice View</a></h2>
+                                                <h2 class="product-title"><a href="{{url_helper('project-detail')}}">New Apartment Nice View</a></h2>
                                                 <div class="product-img-location">
                                                     <ul>
                                                         <li>
@@ -887,7 +887,7 @@
                                                                 <i class="flaticon-heart-1"></i></a>
                                                         </li>
                                                         <li>
-                                                            <a href="product-details.html" title="Product Details">
+                                                            <a href="{{url_helper('project-detail')}}" title="Product Details">
                                                                 <i class="flaticon-add"></i>
                                                             </a>
                                                         </li>
@@ -900,7 +900,7 @@
                                     <div class="col-lg-12">
                                         <div class="ltn__product-item ltn__product-item-4 ltn__product-item-5">
                                             <div class="product-img">
-                                                <a href="product-details.html"><img src= "{{ userAsset('img/product-3/4.jpg')}}" alt="#"></a>
+                                                <a href="{{url_helper('project-detail')}}"><img src= "{{ userAsset('img/product-3/4.jpg')}}" alt="#"></a>
                                             </div>
                                             <div class="product-info">
                                                 <div class="product-badge-price">
@@ -913,7 +913,7 @@
                                                         <span>$34,900<label>/Month</label></span>
                                                     </div>
                                                 </div>
-                                                <h2 class="product-title"><a href="product-details.html">New Apartment Nice View</a></h2>
+                                                <h2 class="product-title"><a href="{{url_helper('project-detail')}}">New Apartment Nice View</a></h2>
                                                 <div class="product-img-location">
                                                     <ul>
                                                         <li>
@@ -955,7 +955,7 @@
                                                                 <i class="flaticon-heart-1"></i></a>
                                                         </li>
                                                         <li>
-                                                            <a href="product-details.html" title="Product Details">
+                                                            <a href="{{url_helper('project-detail')}}" title="Product Details">
                                                                 <i class="flaticon-add"></i>
                                                             </a>
                                                         </li>
@@ -968,7 +968,7 @@
                                     <div class="col-lg-12">
                                         <div class="ltn__product-item ltn__product-item-4 ltn__product-item-5">
                                             <div class="product-img">
-                                                <a href="product-details.html"><img src= "{{ userAsset('img/product-3/5.jpg')}}" alt="#"></a>
+                                                <a href="{{url_helper('project-detail')}}"><img src= "{{ userAsset('img/product-3/5.jpg')}}" alt="#"></a>
                                             </div>
                                             <div class="product-info">
                                                 <div class="product-badge-price">
@@ -981,7 +981,7 @@
                                                         <span>$34,900<label>/Month</label></span>
                                                     </div>
                                                 </div>
-                                                <h2 class="product-title"><a href="product-details.html">New Apartment Nice View</a></h2>
+                                                <h2 class="product-title"><a href="{{url_helper('project-detail')}}">New Apartment Nice View</a></h2>
                                                 <div class="product-img-location">
                                                     <ul>
                                                         <li>
@@ -1023,7 +1023,7 @@
                                                                 <i class="flaticon-heart-1"></i></a>
                                                         </li>
                                                         <li>
-                                                            <a href="product-details.html" title="Product Details">
+                                                            <a href="{{url_helper('project-detail')}}" title="Product Details">
                                                                 <i class="flaticon-add"></i>
                                                             </a>
                                                         </li>
@@ -1276,7 +1276,7 @@
                                 <li>
                                     <div class="top-rated-product-item clearfix">
                                         <div class="top-rated-product-img">
-                                            <a href="product-details.html"><img src="img/product/1.png" alt="#"></a>
+                                            <a href="{{url_helper('project-detail')}}"><img src="img/product/1.png" alt="#"></a>
                                         </div>
                                         <div class="top-rated-product-info">
                                             <div class="product-ratting">
@@ -1288,7 +1288,7 @@
                                                     <li><a href="#"><i class="fas fa-star"></i></a></li>
                                                 </ul>
                                             </div>
-                                            <h6><a href="product-details.html">Mixel Solid Seat Cover</a></h6>
+                                            <h6><a href="{{url_helper('project-detail')}}">Mixel Solid Seat Cover</a></h6>
                                             <div class="product-price">
                                                 <span>$49.00</span>
                                                 <del>$65.00</del>
@@ -1299,7 +1299,7 @@
                                 <li>
                                     <div class="top-rated-product-item clearfix">
                                         <div class="top-rated-product-img">
-                                            <a href="product-details.html"><img src="img/product/2.png" alt="#"></a>
+                                            <a href="{{url_helper('project-detail')}}"><img src="img/product/2.png" alt="#"></a>
                                         </div>
                                         <div class="top-rated-product-info">
                                             <div class="product-ratting">
@@ -1311,7 +1311,7 @@
                                                     <li><a href="#"><i class="fas fa-star"></i></a></li>
                                                 </ul>
                                             </div>
-                                            <h6><a href="product-details.html">3 Rooms Manhattan</a></h6>
+                                            <h6><a href="{{url_helper('project-detail')}}">3 Rooms Manhattan</a></h6>
                                             <div class="product-price">
                                                 <span>$49.00</span>
                                                 <del>$65.00</del>
@@ -1322,7 +1322,7 @@
                                 <li>
                                     <div class="top-rated-product-item clearfix">
                                         <div class="top-rated-product-img">
-                                            <a href="product-details.html"><img src="img/product/3.png" alt="#"></a>
+                                            <a href="{{url_helper('project-detail')}}"><img src="img/product/3.png" alt="#"></a>
                                         </div>
                                         <div class="top-rated-product-info">
                                             <div class="product-ratting">
@@ -1334,7 +1334,7 @@
                                                     <li><a href="#"><i class="far fa-star"></i></a></li>
                                                 </ul>
                                             </div>
-                                            <h6><a href="product-details.html">Coil Spring Conversion</a></h6>
+                                            <h6><a href="{{url_helper('project-detail')}}">Coil Spring Conversion</a></h6>
                                             <div class="product-price">
                                                 <span>$49.00</span>
                                                 <del>$65.00</del>
@@ -1480,7 +1480,7 @@
                                             <span>$149.00</span>
                                             <del>$165.00</del>
                                         </div>
-                                        <div class="modal-product-meta ltn__product-details-menu-1">
+                                        <div class="modal-product-meta ltn__project-details-menu-1">
                                             <ul>
                                                 <li>
                                                     <strong>Categories:</strong> 
@@ -1493,7 +1493,7 @@
                                                 </li>
                                             </ul>
                                         </div>
-                                        <div class="ltn__product-details-menu-2">
+                                        <div class="ltn__project-details-menu-2">
                                             <ul>
                                                 <li>
                                                     <div class="cart-plus-minus">
@@ -1508,7 +1508,7 @@
                                                 </li>
                                             </ul>
                                         </div>
-                                        <div class="ltn__product-details-menu-3">
+                                        <div class="ltn__project-details-menu-3">
                                             <ul>
                                                 <li>
                                                     <a href="#" class="" title="Wishlist" data-bs-toggle="modal" data-bs-target="#liton_wishlist_modal">
@@ -1566,7 +1566,7 @@
                                         <img src= "{{ userAsset('img/product/1.png')}}" alt="#">
                                     </div>
                                      <div class="modal-product-info">
-                                        <h5><a href="product-details.html">3 Rooms Manhattan</a></h5>
+                                        <h5><a href="{{url_helper('project-detail')}}">3 Rooms Manhattan</a></h5>
                                         <p class="added-cart"><i class="fa fa-check-circle"></i>  Successfully added to your Cart</p>
                                         <div class="btn-wrapper">
                                             <a href="cart.html" class="theme-btn-1 btn btn-effect-1">View Cart</a>
@@ -1610,7 +1610,7 @@
                                         <img src="{{ userAsset('img/product/7.png')}}" alt="#">
                                     </div>
                                      <div class="modal-product-info">
-                                        <h5><a href="product-details.html">3 Rooms Manhattan</a></h5>
+                                        <h5><a href="{{url_helper('project-detail')}}">3 Rooms Manhattan</a></h5>
                                         <p class="added-cart"><i class="fa fa-check-circle"></i>  Successfully added to your Wishlist</p>
                                         <div class="btn-wrapper">
                                             <a href="wishlist.html" class="theme-btn-1 btn btn-effect-1">View Wishlist</a>

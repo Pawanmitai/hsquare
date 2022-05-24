@@ -137,7 +137,7 @@
                             <li><a href="blog-grid.html">News Grid</a></li>
                             <li><a href="blog-left-sidebar.html">News Left sidebar</a></li>
                             <li><a href="blog-right-sidebar.html">News Right sidebar</a></li>
-                            <li><a href="blog-details.html">News details</a></li>
+                            <li><a href="{{url_helper('blog-detail')}}">News details</a></li>
                         </ul>
                     </li>
                     <li><a href="#">Pages</a>
@@ -248,7 +248,7 @@
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                         </div>
                         <div class="btn-wrapper animated">
-                            <a href="about.html" class="theme-btn-1 btn btn-effect-1 text-uppercase">About Us</a>
+                            <a href="{{ url_helper('about')}}" class="theme-btn-1 btn btn-effect-1 text-uppercase">About Us</a>
                         </div>
                     </div>
                 </div>
@@ -368,7 +368,7 @@
                 <div class="col-lg-12">
                     <div class="ltn__blog-item ltn__blog-item-3">
                         <div class="ltn__blog-img">
-                            <a href="blog-details.html"><img src="{{ userAsset('img/blog/1.jpg')}}" alt="#"></a>
+                            <a href="{{url_helper('blog-detail')}}"><img src="{{ userAsset('img/blog/1.jpg')}}" alt="#"></a>
                         </div>
                         <div class="ltn__blog-brief">
                             <div class="ltn__blog-meta">
@@ -381,7 +381,7 @@
                                     </li>
                                 </ul>
                             </div>
-                            <h3 class="ltn__blog-title"><a href="blog-details.html">10 Brilliant Ways To Decorate Your Home</a></h3>
+                            <h3 class="ltn__blog-title"><a href="{{url_helper('blog-detail')}}">10 Brilliant Ways To Decorate Your Home</a></h3>
                             <div class="ltn__blog-meta-btn">
                                 <div class="ltn__blog-meta">
                                     <ul>
@@ -389,7 +389,7 @@
                                     </ul>
                                 </div>
                                 <div class="ltn__blog-btn">
-                                    <a href="blog-details.html">Read more</a>
+                                    <a href="{{url_helper('blog-detail')}}">Read more</a>
                                 </div>
                             </div>
                         </div>
@@ -399,7 +399,7 @@
                 <div class="col-lg-12">
                     <div class="ltn__blog-item ltn__blog-item-3">
                         <div class="ltn__blog-img">
-                            <a href="blog-details.html"><img src="{{ userAsset('img/blog/2.jpg')}}" alt="#"></a>
+                            <a href="{{url_helper('blog-detail')}}"><img src="{{ userAsset('img/blog/2.jpg')}}" alt="#"></a>
                         </div>
                         <div class="ltn__blog-brief">
                             <div class="ltn__blog-meta">
@@ -412,7 +412,7 @@
                                     </li>
                                 </ul>
                             </div>
-                            <h3 class="ltn__blog-title"><a href="blog-details.html">The Most Inspiring Interior Design Of 2021</a></h3>
+                            <h3 class="ltn__blog-title"><a href="{{url_helper('blog-detail')}}">The Most Inspiring Interior Design Of 2021</a></h3>
                             <div class="ltn__blog-meta-btn">
                                 <div class="ltn__blog-meta">
                                     <ul>
@@ -420,7 +420,7 @@
                                     </ul>
                                 </div>
                                 <div class="ltn__blog-btn">
-                                    <a href="blog-details.html">Read more</a>
+                                    <a href="{{url_helper('blog-detail')}}">Read more</a>
                                 </div>
                             </div>
                         </div>
@@ -430,7 +430,7 @@
                 <div class="col-lg-12">
                     <div class="ltn__blog-item ltn__blog-item-3">
                         <div class="ltn__blog-img">
-                            <a href="blog-details.html"><img src="{{ userAsset('img/blog/3.jpg')}}" alt="#"></a>
+                            <a href="{{url_helper('blog-detail')}}"><img src="{{ userAsset('img/blog/3.jpg')}}" alt="#"></a>
                         </div>
                         <div class="ltn__blog-brief">
                             <div class="ltn__blog-meta">
@@ -443,7 +443,7 @@
                                     </li>
                                 </ul>
                             </div>
-                            <h3 class="ltn__blog-title"><a href="blog-details.html">Recent Commercial Real Estate Transactions</a></h3>
+                            <h3 class="ltn__blog-title"><a href="{{url_helper('blog-detail')}}">Recent Commercial Real Estate Transactions</a></h3>
                             <div class="ltn__blog-meta-btn">
                                 <div class="ltn__blog-meta">
                                     <ul>
@@ -451,7 +451,7 @@
                                     </ul>
                                 </div>
                                 <div class="ltn__blog-btn">
-                                    <a href="blog-details.html">Read more</a>
+                                    <a href="{{url_helper('blog-detail')}}">Read more</a>
                                 </div>
                             </div>
                         </div>
@@ -461,7 +461,7 @@
                 <div class="col-lg-12">
                     <div class="ltn__blog-item ltn__blog-item-3">
                         <div class="ltn__blog-img">
-                            <a href="blog-details.html"><img src="{{ userAsset('img/service/11.jpg')}}" alt="#"></a>
+                            <a href="{{url_helper('blog-detail')}}"><img src="{{ userAsset('img/service/11.jpg')}}" alt="#"></a>
                         </div>
                         <div class="ltn__blog-brief">
                             <div class="ltn__blog-meta">
@@ -474,7 +474,7 @@
                                     </li>
                                 </ul>
                             </div>
-                            <h3 class="ltn__blog-title"><a href="blog-details.html">Renovating a Living Room? Experts Share Their Secrets</a></h3>
+                            <h3 class="ltn__blog-title"><a href="{{url_helper('blog-detail')}}">Renovating a Living Room? Experts Share Their Secrets</a></h3>
                             <div class="ltn__blog-meta-btn">
                                 <div class="ltn__blog-meta">
                                     <ul>
@@ -482,7 +482,7 @@
                                     </ul>
                                 </div>
                                 <div class="ltn__blog-btn">
-                                    <a href="blog-details.html">Read more</a>
+                                    <a href="{{url_helper('blog-detail')}}">Read more</a>
                                 </div>
                             </div>
                         </div>
@@ -492,7 +492,7 @@
                 <div class="col-lg-12">
                     <div class="ltn__blog-item ltn__blog-item-3">
                         <div class="ltn__blog-img">
-                            <a href="blog-details.html"><img src="{{ userAsset('img/blog/5.jpg')}}" alt="#"></a>
+                            <a href="{{url_helper('blog-detail')}}"><img src="{{ userAsset('img/blog/5.jpg')}}" alt="#"></a>
                         </div>
                         <div class="ltn__blog-brief">
                             <div class="ltn__blog-meta">
@@ -505,7 +505,7 @@
                                     </li>
                                 </ul>
                             </div>
-                            <h3 class="ltn__blog-title"><a href="blog-details.html">7 home trends that will shape your house in 2021</a></h3>
+                            <h3 class="ltn__blog-title"><a href="{{url_helper('blog-detail')}}">7 home trends that will shape your house in 2021</a></h3>
                             <div class="ltn__blog-meta-btn">
                                 <div class="ltn__blog-meta">
                                     <ul>
@@ -513,7 +513,7 @@
                                     </ul>
                                 </div>
                                 <div class="ltn__blog-btn">
-                                    <a href="blog-details.html">Read more</a>
+                                    <a href="{{url_helper('blog-detail')}}">Read more</a>
                                 </div>
                             </div>
                         </div>

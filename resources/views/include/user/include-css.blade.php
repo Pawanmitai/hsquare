@@ -13,6 +13,6 @@
 <link rel="stylesheet" href="{{ userAsset('css/style.css')}}">
 <!-- Responsive css -->
 <link rel="stylesheet" href="{{ userAsset('css/responsive.css')}}">
-
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/css/bootstrap.min.css" >
+{{-- 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/css/bootstrap.min.css" > --}}
 
