@@ -5,9 +5,10 @@
 
 @section('body')
 
-    
-    <!-- Utilize Cart Menu Start -->
-    <div id="ltn__utilize-cart-menu" class="ltn__utilize ltn__utilize-cart-menu">
+
+
+<!-- Utilize Cart Menu Start -->
+<div id="ltn__utilize-cart-menu" class="ltn__utilize ltn__utilize-cart-menu">
         <div class="ltn__utilize-menu-inner ltn__scrollbar">
             <div class="ltn__utilize-menu-head">
                 <span class="ltn__utilize-menu-title">Cart</span>
@@ -75,7 +76,7 @@
         <div class="ltn__utilize-menu-inner ltn__scrollbar">
             <div class="ltn__utilize-menu-head">
                 <div class="site-logo">
-                    <a href="index.html"><img src="{{ userAsset('img/logo.png')}}" alt="Logo"></a>
+                    <a href="index.html"><img src="img/logo.png" alt="Logo"></a>
                 </div>
                 <button class="ltn__utilize-close">×</button>
             </div>
@@ -153,7 +154,7 @@
                             <li><a href="team-details.html">Team Details</a></li>
                             <li><a href="faq.html">FAQ</a></li>
                             <li><a href="history.html">History</a></li>
-                            <li><a href="add-listing.html">Add Listing</a></li>
+                            <li><a href="appointment.html">Appointment</a></li>
                             <li><a href="locations.html">Google Map Locations</a></li>
                             <li><a href="404.html">404</a></li>
                             <li><a href="contact.html">Contact</a></li>
@@ -208,7 +209,7 @@
     <div class="ltn__utilize-overlay"></div>
 
     <!-- BREADCRUMB AREA START -->
-     <div class="ltn__contact-address-area mb-90">
+    <div class="ltn__contact-address-area mb-90">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -217,7 +218,7 @@
                         <div class="ltn__breadcrumb-list">
                             <ul>
                                 <li><a href="index.html"><span class="ltn__secondary-color"><i class="fas fa-home"></i></span> Home</a></li>
-                                <li>About Us</li> 
+                                <li>Why in Dubai</li> 
                             </ul>
                         </div>
                     </div>
@@ -227,312 +228,12 @@
         </div>
     <!-- BREADCRUMB AREA END -->
 
-    <!-- ABOUT US AREA START -->
-    <div class="ltn__about-us-area pt-120--- pb-90 mt--30">
+    <!-- BLOG AREA START -->
+    <div class="ltn__blog-area ltn__blog-item-3-normal mb-100">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 align-self-center">
-                    <div class="about-us-img-wrap about-img-left">
-                        <img src="{{ userAsset('img/others/13.png')}}" alt="About Us Image">
-                        <div class="about-us-img-info about-us-img-info-2 about-us-img-info-3">
-                            
-                            <div class="ltn__video-img ltn__animation-pulse1">
-                                <img src="{{ userAsset('img/others/8.png')}}" alt="video popup bg image">
-                                <a class="ltn__video-icon-2 ltn__video-icon-2-border---" href="https://www.youtube.com/embed/X7R-q9rsrtU?autoplay=1&showinfo=0"  data-rel="lightcase:myCollection">
-                                    <i class="fa fa-play"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 align-self-center">
-                    <div class="about-us-info-wrap">
-                        <div class="section-title-area ltn__section-title-2--- mb-20">
-                            <h6 class="section-subtitle section-subtitle-2 ltn__secondary-color">About Us</h6>
-                            <h1 class="section-title">The Leading Real Estate
-                                Rental Marketplace<span>.</span></h1>
-                            <p>Over 39,000 people work for us in more than 70 countries all over the
-                                This breadth of global coverage, combined with specialist services</p>
-                        </div>
-                        <ul class="ltn__list-item-half clearfix">
-                            <li>
-                                <i class="flaticon-home-2"></i>
-                                Smart Home Design
-                            </li>
-                            <li>
-                                <i class="flaticon-mountain"></i>
-                                Beautiful Scene Around
-                            </li>
-                            <li>
-                                <i class="flaticon-heart"></i>
-                                Exceptional Lifestyle
-                            </li>
-                            <li>
-                                <i class="flaticon-secure"></i>
-                                Complete 24/7 Security
-                            </li>
-                        </ul>
-                        <div class="ltn__callout bg-overlay-theme-05  mt-30">
-                            <p>"Enimad minim veniam quis nostrud exercitation <br>
-                                llamco laboris. Lorem ipsum dolor sit amet" </p>
-                        </div>
-                        <div class="btn-wrapper animated">
-                            <a href="servies.html" class="theme-btn-1 btn btn-effect-1">OUR SERVICES</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- ABOUT US AREA END -->
-
-    <!-- FEATURE AREA START ( Feature - 6) -->
-    <div class="ltn__feature-area section-bg-1 pt-120 pb-90 mb-120---">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="section-title-area ltn__section-title-2--- text-center">
-                        <h6 class="section-subtitle section-subtitle-2 ltn__secondary-color">Our Services</h6>
-                        <h1 class="section-title">Our Main Focus</h1>
-                    </div>
-                </div>
-            </div>
-            <div class="row ltn__custom-gutter--- justify-content-center">
-                <div class="col-lg-4 col-sm-6 col-12">
-                    <div class="ltn__feature-item ltn__feature-item-6 text-center bg-white  box-shadow-1">
-                        <div class="ltn__feature-icon">
-                            <!-- <span><i class="flaticon-house"></i></span> -->
-                            <img src="{{ userAsset('img/icons/icon-img/21.png')}}" alt="#">
-                        </div>
-                        <div class="ltn__feature-info">
-                            <h3><a href="service-details.html">Buy a home</a></h3>
-                            <p>over 1 million+ homes for sale available on the website, we can match you with a house you will want to call home.</p>
-                            <a class="ltn__service-btn" href="service-details.html">Find A Home <i class="flaticon-right-arrow"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 col-12">
-                    <div class="ltn__feature-item ltn__feature-item-6 text-center bg-white  box-shadow-1 active">
-                        <div class="ltn__feature-icon">
-                            <!-- <span><i class="flaticon-house-3"></i></span> -->
-                            <img src="{{ userAsset('img/icons/icon-img/22.png')}}" alt="#">
-                        </div>
-                        <div class="ltn__feature-info">
-                            <h3><a href="service-details.html">Rent a home</a></h3>
-                            <p>over 1 million+ homes for sale available on the website, we can match you with a house you will want to call home.</p>
-                            <a class="ltn__service-btn" href="service-details.html">Find A Home <i class="flaticon-right-arrow"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 col-12">
-                    <div class="ltn__feature-item ltn__feature-item-6 text-center bg-white  box-shadow-1">
-                        <div class="ltn__feature-icon">
-                            <!-- <span><i class="flaticon-deal-1"></i></span> -->
-                            <img src="{{ userAsset('img/icons/icon-img/23.png')}}" alt="#">
-                        </div>
-                        <div class="ltn__feature-info">
-                            <h3><a href="service-details.html">Sell a home</a></h3>
-                            <p>over 1 million+ homes for sale available on the website, we can match you with a house you will want to call home.</p>
-                            <a class="ltn__service-btn" href="service-details.html">Find A Home <i class="flaticon-right-arrow"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- FEATURE AREA END -->
-
-    <!-- TEAM AREA START (Team - 3) -->
-    <div class="ltn__team-area pt-115 pb-90">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="section-title-area ltn__section-title-2--- text-center">
-                        <h6 class="section-subtitle section-subtitle-2 ltn__secondary-color">Team</h6>
-                        <h1 class="section-title">Property Agents</h1>
-                    </div>
-                </div>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-lg-4 col-sm-6">
-                    <div class="ltn__team-item ltn__team-item-3---">
-                        <div class="team-img">
-                            <img src="{{ userAsset('img/team/4.jpg')}}" alt="Image">
-                        </div>
-                        <div class="team-info">
-                            <h4><a href="team-details.html">Rosalina D. William</a></h4>
-                            <h6 class="ltn__secondary-color">Real Estate Broker</h6>
-                            <div class="ltn__social-media">
-                                <ul>
-                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="ltn__team-item ltn__team-item-3---">
-                        <div class="team-img">
-                            <img src="{{ userAsset('img/team/2.jpg')}}" alt="Image">
-                        </div>
-                        <div class="team-info">
-                            <h4><a href="team-details.html">Kelian Anderson</a></h4>
-                            <h6 class="ltn__secondary-color">Selling Agents</h6>
-                            <div class="ltn__social-media">
-                                <ul>
-                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="ltn__team-item ltn__team-item-3---">
-                        <div class="team-img">
-                            <img src="{{ userAsset('img/team/5.jpg')}}" alt="Image">
-                        </div>
-                        <div class="team-info">
-                            <h4><a href="team-details.html">Miranda H. Halim</a></h4>
-                            <h6 class="ltn__secondary-color">Property Seller</h6>
-                            <div class="ltn__social-media">
-                                <ul>
-                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- TEAM AREA END -->
-
-    <!-- TESTIMONIAL AREA START (testimonial-7) -->
-    <div class="ltn__testimonial-area section-bg-1--- bg-image-top pt-120 pb-70" data-bs-bg="{{ userAsset('img/bg/20.jpg')}}">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="section-title-area ltn__section-title-2--- text-center">
-                        <h6 class="section-subtitle section-subtitle-2 ltn__secondary-color">Our Testimonial</h6>
-                        <h1 class="section-title">Clients Feedback</h1>
-                    </div>
-                </div>
-            </div>
-            <div class="row ltn__testimonial-slider-5-active slick-arrow-1">
-                <div class="col-lg-4">
-                    <div class="ltn__testimonial-item ltn__testimonial-item-7">
-                        <div class="ltn__testimoni-info">
-                            <p><i class="flaticon-left-quote-1"></i> 
-                                Precious ipsum dolor sit amet
-                                consectetur adipisicing elit, sed dos
-                                mod tempor incididunt ut labore et
-                                dolore magna aliqua. Ut enim ad min
-                                veniam, quis nostrud Precious ips
-                                um dolor sit amet, consecte</p>
-                            <div class="ltn__testimoni-info-inner">
-                                <div class="ltn__testimoni-img">
-                                    <img src="{{ userAsset('img/testimonial/1.jpg')}}" alt="#">
-                                </div>
-                                <div class="ltn__testimoni-name-designation">
-                                    <h5>Jacob William</h5>
-                                    <label>Selling Agents</label>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="ltn__testimonial-item ltn__testimonial-item-7">
-                        <div class="ltn__testimoni-info">
-                            <p><i class="flaticon-left-quote-1"></i> 
-                                Precious ipsum dolor sit amet
-                                consectetur adipisicing elit, sed dos
-                                mod tempor incididunt ut labore et
-                                dolore magna aliqua. Ut enim ad min
-                                veniam, quis nostrud Precious ips
-                                um dolor sit amet, consecte</p>
-                            <div class="ltn__testimoni-info-inner">
-                                <div class="ltn__testimoni-img">
-                                    <img src="{{ userAsset('img/testimonial/2.jpg')}}" alt="#">
-                                </div>
-                                <div class="ltn__testimoni-name-designation">
-                                    <h5>Kelian Anderson</h5>
-                                    <label>Selling Agents</label>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="ltn__testimonial-item ltn__testimonial-item-7">
-                        <div class="ltn__testimoni-info">
-                            <p><i class="flaticon-left-quote-1"></i> 
-                                Precious ipsum dolor sit amet
-                                consectetur adipisicing elit, sed dos
-                                mod tempor incididunt ut labore et
-                                dolore magna aliqua. Ut enim ad min
-                                veniam, quis nostrud Precious ips
-                                um dolor sit amet, consecte</p>
-                            <div class="ltn__testimoni-info-inner">
-                                <div class="ltn__testimoni-img">
-                                    <img src="{{ userAsset('img/testimonial/3.jpg')}}" alt="#">
-                                </div>
-                                <div class="ltn__testimoni-name-designation">
-                                    <h5>Adam Joseph</h5>
-                                    <label>Selling Agents</label>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="ltn__testimonial-item ltn__testimonial-item-7">
-                        <div class="ltn__testimoni-info">
-                            <p><i class="flaticon-left-quote-1"></i> 
-                                Precious ipsum dolor sit amet
-                                consectetur adipisicing elit, sed dos
-                                mod tempor incididunt ut labore et
-                                dolore magna aliqua. Ut enim ad min
-                                veniam, quis nostrud Precious ips
-                                um dolor sit amet, consecte</p>
-                            <div class="ltn__testimoni-info-inner">
-                                <div class="ltn__testimoni-img">
-                                    <img src="{{ userAsset('img/testimonial/4.jpg')}}" alt="#">
-                                </div>
-                                <div class="ltn__testimoni-name-designation">
-                                    <h5>James Carter</h5>
-                                    <label>Selling Agents</label>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--  -->
-            </div>
-        </div>
-    </div>
-    <!-- TESTIMONIAL AREA END -->
-
-    <!-- BLOG AREA START (blog-3) -->
-    <div class="ltn__blog-area pt-115--- pb-70">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="section-title-area ltn__section-title-2--- text-center">
-                        <h6 class="section-subtitle section-subtitle-2 ltn__secondary-color">News & Blogs</h6>
-                        <h1 class="section-title">Leatest News Feeds</h1>
-                    </div>
-                </div>
-            </div>
-            <div class="row  ltn__blog-slider-one-active slick-arrow-1 ltn__blog-item-3-normal">
                 <!-- Blog Item -->
-                <div class="col-lg-12">
+                <div class="col-lg-4 col-sm-6 col-12">
                     <div class="ltn__blog-item ltn__blog-item-3">
                         <div class="ltn__blog-img">
                             <a href="blog-details.html"><img src="{{ userAsset('img/blog/1.jpg')}}" alt="#"></a>
@@ -544,15 +245,15 @@
                                         <a href="#"><i class="far fa-user"></i>by: Admin</a>
                                     </li>
                                     <li class="ltn__blog-tags">
-                                        <a href="#"><i class="fas fa-tags"></i>Decorate</a>
+                                        <a href="#"><i class="fas fa-tags"></i>Services</a>
                                     </li>
                                 </ul>
                             </div>
-                            <h3 class="ltn__blog-title"><a href="blog-details.html">10 Brilliant Ways To Decorate Your Home</a></h3>
+                            <h3 class="ltn__blog-title"><a href="blog-details.html">Common Engine Oil Problems and Solutions</a></h3>
                             <div class="ltn__blog-meta-btn">
                                 <div class="ltn__blog-meta">
                                     <ul>
-                                        <li class="ltn__blog-date"><i class="far fa-calendar-alt"></i>June 24, 2021</li>
+                                        <li class="ltn__blog-date"><i class="far fa-calendar-alt"></i>June 24, 2020</li>
                                     </ul>
                                 </div>
                                 <div class="ltn__blog-btn">
@@ -563,7 +264,7 @@
                     </div>
                 </div>
                 <!-- Blog Item -->
-                <div class="col-lg-12">
+                <div class="col-lg-4 col-sm-6 col-12">
                     <div class="ltn__blog-item ltn__blog-item-3">
                         <div class="ltn__blog-img">
                             <a href="blog-details.html"><img src="{{ userAsset('img/blog/2.jpg')}}" alt="#"></a>
@@ -575,15 +276,15 @@
                                         <a href="#"><i class="far fa-user"></i>by: Admin</a>
                                     </li>
                                     <li class="ltn__blog-tags">
-                                        <a href="#"><i class="fas fa-tags"></i>Interior</a>
+                                        <a href="#"><i class="fas fa-tags"></i>Services</a>
                                     </li>
                                 </ul>
                             </div>
-                            <h3 class="ltn__blog-title"><a href="blog-details.html">The Most Inspiring Interior Design Of 2021</a></h3>
+                            <h3 class="ltn__blog-title"><a href="blog-details.html">How and when to replace brake rotors</a></h3>
                             <div class="ltn__blog-meta-btn">
                                 <div class="ltn__blog-meta">
                                     <ul>
-                                        <li class="ltn__blog-date"><i class="far fa-calendar-alt"></i>July 23, 2021</li>
+                                        <li class="ltn__blog-date"><i class="far fa-calendar-alt"></i>July 23, 2020</li>
                                     </ul>
                                 </div>
                                 <div class="ltn__blog-btn">
@@ -594,7 +295,7 @@
                     </div>
                 </div>
                 <!-- Blog Item -->
-                <div class="col-lg-12">
+                <div class="col-lg-4 col-sm-6 col-12">
                     <div class="ltn__blog-item ltn__blog-item-3">
                         <div class="ltn__blog-img">
                             <a href="blog-details.html"><img src="{{ userAsset('img/blog/3.jpg')}}" alt="#"></a>
@@ -606,15 +307,15 @@
                                         <a href="#"><i class="far fa-user"></i>by: Admin</a>
                                     </li>
                                     <li class="ltn__blog-tags">
-                                        <a href="#"><i class="fas fa-tags"></i>Estate</a>
+                                        <a href="#"><i class="fas fa-tags"></i>Services</a>
                                     </li>
                                 </ul>
                             </div>
-                            <h3 class="ltn__blog-title"><a href="blog-details.html">Recent Commercial Real Estate Transactions</a></h3>
+                            <h3 class="ltn__blog-title"><a href="blog-details.html">Electric Car Maintenance, Servicing & Repairs</a></h3>
                             <div class="ltn__blog-meta-btn">
                                 <div class="ltn__blog-meta">
                                     <ul>
-                                        <li class="ltn__blog-date"><i class="far fa-calendar-alt"></i>May 22, 2021</li>
+                                        <li class="ltn__blog-date"><i class="far fa-calendar-alt"></i>August 22, 2020</li>
                                     </ul>
                                 </div>
                                 <div class="ltn__blog-btn">
@@ -625,7 +326,7 @@
                     </div>
                 </div>
                 <!-- Blog Item -->
-                <div class="col-lg-12">
+                <div class="col-lg-4 col-sm-6 col-12">
                     <div class="ltn__blog-item ltn__blog-item-3">
                         <div class="ltn__blog-img">
                             <a href="blog-details.html"><img src="{{ userAsset('img/blog/4.jpg')}}" alt="#"></a>
@@ -637,15 +338,15 @@
                                         <a href="#"><i class="far fa-user"></i>by: Admin</a>
                                     </li>
                                     <li class="ltn__blog-tags">
-                                        <a href="#"><i class="fas fa-tags"></i>Room</a>
+                                        <a href="#"><i class="fas fa-tags"></i>Services</a>
                                     </li>
                                 </ul>
                             </div>
-                            <h3 class="ltn__blog-title"><a href="blog-details.html">Renovating a Living Room? Experts Share Their Secrets</a></h3>
+                            <h3 class="ltn__blog-title"><a href="blog-details.html">How to Prepare for your First Track Day!</a></h3>
                             <div class="ltn__blog-meta-btn">
                                 <div class="ltn__blog-meta">
                                     <ul>
-                                        <li class="ltn__blog-date"><i class="far fa-calendar-alt"></i>June 24, 2021</li>
+                                        <li class="ltn__blog-date"><i class="far fa-calendar-alt"></i>June 24, 2020</li>
                                     </ul>
                                 </div>
                                 <div class="ltn__blog-btn">
@@ -656,7 +357,7 @@
                     </div>
                 </div>
                 <!-- Blog Item -->
-                <div class="col-lg-12">
+                <div class="col-lg-4 col-sm-6 col-12">
                     <div class="ltn__blog-item ltn__blog-item-3">
                         <div class="ltn__blog-img">
                             <a href="blog-details.html"><img src="{{ userAsset('img/blog/5.jpg')}}" alt="#"></a>
@@ -668,15 +369,139 @@
                                         <a href="#"><i class="far fa-user"></i>by: Admin</a>
                                     </li>
                                     <li class="ltn__blog-tags">
-                                        <a href="#"><i class="fas fa-tags"></i>Trends</a>
+                                        <a href="#"><i class="fas fa-tags"></i>Services</a>
                                     </li>
                                 </ul>
                             </div>
-                            <h3 class="ltn__blog-title"><a href="blog-details.html">7 home trends that will shape your house in 2021</a></h3>
+                            <h3 class="ltn__blog-title"><a href="blog-details.html">How to: Make Your Tires Last Longer</a></h3>
                             <div class="ltn__blog-meta-btn">
                                 <div class="ltn__blog-meta">
                                     <ul>
-                                        <li class="ltn__blog-date"><i class="far fa-calendar-alt"></i>June 24, 2021</li>
+                                        <li class="ltn__blog-date"><i class="far fa-calendar-alt"></i>June 24, 2020</li>
+                                    </ul>
+                                </div>
+                                <div class="ltn__blog-btn">
+                                    <a href="blog-details.html">Read more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Blog Item -->
+                <div class="col-lg-4 col-sm-6 col-12">
+                    <div class="ltn__blog-item ltn__blog-item-3">
+                        <div class="ltn__blog-img">
+                            <a href="blog-details.html"><img src="{{ userAsset('img/blog/6.jpg')}}" alt="#"></a>
+                        </div>
+                        <div class="ltn__blog-brief">
+                            <div class="ltn__blog-meta">
+                                <ul>
+                                    <li class="ltn__blog-author">
+                                        <a href="#"><i class="far fa-user"></i>by: Admin</a>
+                                    </li>
+                                    <li class="ltn__blog-tags">
+                                        <a href="#"><i class="fas fa-tags"></i>Services</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <h3 class="ltn__blog-title"><a href="blog-details.html">Common Engine Oil Problems and Solutions</a></h3>
+                            <div class="ltn__blog-meta-btn">
+                                <div class="ltn__blog-meta">
+                                    <ul>
+                                        <li class="ltn__blog-date"><i class="far fa-calendar-alt"></i>June 24, 2020</li>
+                                    </ul>
+                                </div>
+                                <div class="ltn__blog-btn">
+                                    <a href="blog-details.html">Read more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Blog Item -->
+                <div class="col-lg-4 col-sm-6 col-12">
+                    <div class="ltn__blog-item ltn__blog-item-3">
+                        <div class="ltn__blog-img">
+                            <a href="blog-details.html"><img src="{{ userAsset('img/blog/7.jpg')}}" alt="#"></a>
+                        </div>
+                        <div class="ltn__blog-brief">
+                            <div class="ltn__blog-meta">
+                                <ul>
+                                    <li class="ltn__blog-author">
+                                        <a href="#"><i class="far fa-user"></i>by: Admin</a>
+                                    </li>
+                                    <li class="ltn__blog-tags">
+                                        <a href="#"><i class="fas fa-tags"></i>Services</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <h3 class="ltn__blog-title"><a href="blog-details.html">How and when to replace brake rotors</a></h3>
+                            <div class="ltn__blog-meta-btn">
+                                <div class="ltn__blog-meta">
+                                    <ul>
+                                        <li class="ltn__blog-date"><i class="far fa-calendar-alt"></i>July 23, 2020</li>
+                                    </ul>
+                                </div>
+                                <div class="ltn__blog-btn">
+                                    <a href="blog-details.html">Read more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Blog Item -->
+                <div class="col-lg-4 col-sm-6 col-12">
+                    <div class="ltn__blog-item ltn__blog-item-3">
+                        <div class="ltn__blog-img">
+                            <a href="blog-details.html"><img src="{{ userAsset('img/blog/8.jpg')}}" alt="#"></a>
+                        </div>
+                        <div class="ltn__blog-brief">
+                            <div class="ltn__blog-meta">
+                                <ul>
+                                    <li class="ltn__blog-author">
+                                        <a href="#"><i class="far fa-user"></i>by: Admin</a>
+                                    </li>
+                                    <li class="ltn__blog-tags">
+                                        <a href="#"><i class="fas fa-tags"></i>Services</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <h3 class="ltn__blog-title"><a href="blog-details.html">Electric Car Maintenance, Servicing & Repairs</a></h3>
+                            <div class="ltn__blog-meta-btn">
+                                <div class="ltn__blog-meta">
+                                    <ul>
+                                        <li class="ltn__blog-date"><i class="far fa-calendar-alt"></i>August 22, 2020</li>
+                                    </ul>
+                                </div>
+                                <div class="ltn__blog-btn">
+                                    <a href="blog-details.html">Read more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Blog Item -->
+                <div class="col-lg-4 col-sm-6 col-12">
+                    <div class="ltn__blog-item ltn__blog-item-3">
+                        <div class="ltn__blog-img">
+                            <a href="blog-details.html"><img src="{{ userAsset('img/blog/2.jpg')}}" alt="#"></a>
+                        </div>
+                        <div class="ltn__blog-brief">
+                            <div class="ltn__blog-meta">
+                                <ul>
+                                    <li class="ltn__blog-author">
+                                        <a href="#"><i class="far fa-user"></i>by: Admin</a>
+                                    </li>
+                                    <li class="ltn__blog-tags">
+                                        <a href="#"><i class="fas fa-tags"></i>Services</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <h3 class="ltn__blog-title"><a href="blog-details.html">How to: Make Your Tires Last Longer</a></h3>
+                            <div class="ltn__blog-meta-btn">
+                                <div class="ltn__blog-meta">
+                                    <ul>
+                                        <li class="ltn__blog-date"><i class="far fa-calendar-alt"></i>June 24, 2020</li>
                                     </ul>
                                 </div>
                                 <div class="ltn__blog-btn">
@@ -688,23 +513,28 @@
                 </div>
                 <!--  -->
             </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="ltn__pagination-area text-center">
+                        <div class="ltn__pagination">
+                            <ul>
+                                <li><a href="#"><i class="fas fa-angle-double-left"></i></a></li>
+                                <li><a href="#">1</a></li>
+                                <li class="active"><a href="#">2</a></li>
+                                <li><a href="#">3</a></li>
+                                <li><a href="#">...</a></li>
+                                <li><a href="#">10</a></li>
+                                <li><a href="#"><i class="fas fa-angle-double-right"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <!-- BLOG AREA END -->
 
 
-
-<!-- preloader area start -->
-<div class="preloader d-none" id="preloader">
-    <div class="preloader-inner">
-        <div class="spinner">
-            <div class="dot1"></div>
-            <div class="dot2"></div>
-        </div>
-    </div>
-</div>
-<!-- preloader area end -->
-    
 @endsection
 
 @section('js-add')
