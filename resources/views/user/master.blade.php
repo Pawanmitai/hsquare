@@ -20,7 +20,7 @@
         <div class="ltn__header-top-area section-bg-6 top-area-color-white---">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-7">
+                    <div class="col-md-5">
                         <div class="ltn__top-bar-menu">
                             <ul>
                                 <li><a href="mailto:info@hsquare.co.in?Subject=Flower%20greetings%20to%20you"><i class="icon-mail"></i> info@hsquare.co.in</a></li>
@@ -28,7 +28,22 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-md-5">
+                    
+                    
+                     <div class="col-md-5">
+                        <div class="ltn__top-bar-menu">
+                            <ul>
+                                <li><a href="#">ABOUT US <a></li>|
+                                <li><a href="#"> BLOG </a></li>|
+                                <li><a href="#">CARRIER <a></li>|
+                                <li><a href="#"> CONTACT US </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    
+                    
+                    <div class="col-md-2">
                         <div class="top-bar-right text-end">
                             <div class="ltn__top-bar-menu">
                                 <ul>
@@ -63,10 +78,10 @@
                                     </li>
                                     <li>
                                         <!-- header-top-btn -->
-                                        <div class="header-top-btn">
-                                            <a href="login.html">Agent Portal</a>
+                                        <!--<div class="header-top-btn">-->
+                                        <!--    <a href="login.html">Agent Portal</a>-->
                                              
-                                        </div>
+                                        <!--</div>-->
                                     </li>
                                 </ul>
                             </div>
@@ -128,13 +143,38 @@
                                                 </li>
                                             </ul>
                                         </li>
-                                        <li><a href="{{ url_helper('offer')}}">OFFERS</a></li>
-                                        <li><a href="{{ url_helper('project') }}">PROJECTS</a></li>
+                                        <!--<li><a href="{{ url_helper('offer')}}">OFFERS</a></li>-->
+                                         <!--<li><a href="{{ url_helper('project') }}">SERVICES</a></li>-->
+                                         <li class="menu-icon"><a href="#">SERVICES</a>
+                                             <ul>
+                                               
+                                                <li><a href="{{ url_helper('#') }}">Residential</a></li>
+                                                <li><a href="{{ url_helper('#') }}">Commercial</a></li>
+                                                <li><a href="{{ url_helper('#') }}">Tenant & Occupies</a></li>
+                                                <li><a href="{{ url_helper('#') }}">Lands</a></li>
+                                            </ul>
+                                        </li> 
+                                        <li class="menu-icon"><a href="#">PROPERTIES</a>
+                                        <ul> 
+                                        <li class="sub-menu-icon"><a href="#">Residential</a>
+                                        <ul>
+                                         <li><a href="{{ url_helper('#') }}">Sale</a></li>
+                                                <li><a href="{{ url_helper('#') }}">Lesae</a></li>
+                                                <li><a href="{{ url_helper('#') }}">View All</a></li>    
                                             
-                                        <li><a href="{{ url_helper('mortagage-assist')}}">MORTAGAGE ASSIST</a></li>
+                                        </ul>
+                                        </li>
+                                         <li><a href="{{ url_helper('#') }}">Commercial</a></li>
+                                        </ul>
+                                        </li>
+                                          <!--<li><a href="{{ url_helper('project') }}">PROPERTIES</a></li>-->
+                                         
+                                        <!--<li><a href="{{ url_helper('project') }}">PROJECTS</a></li>-->
                                             
-                                        <li class="menu-icon"><a href="#">ADVICE</a>
-                                    
+                                        <!--<li><a href="{{ url_helper('mortagage-assist')}}">MORTAGAGE ASSIST</a></li>-->
+                                            <li><a href="{{ url_helper('mortagage-assist')}}">TRENDING</a></li>
+                                        <!--<li class="menu-icon"><a href="#">ADVICE</a>-->
+                                          <li class="menu-icon"><a href="#">HSQUARE HUB</a>
                                             <ul>
                                                 <li><a href="{{ url_helper('why-hsquare')}}">Why HSQUARE ?</a></li>
                                                 <li><a href="{{ url_helper('why-in-dubai')}}">Why in Dubai ?</a></li>
@@ -143,7 +183,7 @@
                                         </li> 
                                                 
                                                 
-                                        <li><a href="{{ url_helper('contact')}}">CONTACT</a></li>
+                                        <!--<li><a href="{{ url_helper('contact')}}">CONTACT</a></li>-->
                                     </ul>
                                 </div>
                             </nav>
