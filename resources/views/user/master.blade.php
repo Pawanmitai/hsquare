@@ -115,16 +115,34 @@
                             </div>
 
                             
-                            @if(Request::segment(1) === 'uae')
-                                <a href="javascript:void(0)" data-toggle="modal" data-target="#countryModal" class="shadow-none" data-tippy-placement="right" data-tippy="">
-                                    <img src="{{ userAsset('img/flag/uae1.jpg')}}">
+                            {{-- @if(Request::segment(1) === 'uae')
+                                <a href="javascript:void(0)" data-toggle="modal" class="shadow-none" data-tippy-placement="right" data-tippy="">
+                                    <img src="{{ userAsset('img/flag/uae30.jpg')}}">
                                 </a>
                             @else
-                            <a href="javascript:void(0)" data-toggle="modal" data-target="#countryModal" class="shadow-none" data-tippy-placement="right" data-tippy="">
-                                <img src="{{ userAsset('img/flag/in1.jpg')}}">
+                            <a href="javascript:void(0)" data-toggle="modal" class="shadow-none" data-tippy-placement="right" data-tippy="">
+                                <img src="{{ userAsset('img/flag/in30.jpg')}}">
                             </a>
                                
-                            @endif
+                            @endif --}}
+
+                            {{-- <ul class="list">
+                                <li data-value="uae" class="option selected focus"><img src="{{ userAsset('img/flag/uae30.jpg')}}"></li>
+                                <li data-value="in" class="option"><img src="{{ userAsset('img/flag/uae30.jpg')}}"></li>
+                            </ul> --}}
+
+                            {{-- <div class="nice-select" tabindex="0">
+                                <span class="current"></span>
+                                <ul class="list">
+                                    <li data-value="in" style="background-image:url({{ userAsset('img/flag/in1.jpg')}});" class="option selected"></li>
+                                    <li data-value="uae" style="background-image:url({{ userAsset('img/flag/uae1.jpg')}});" class="option"></li>
+                                </ul>
+                            </div> --}}
+
+                            <select name="country" id="country-selection">
+                                <option value="uae">UAE</option>
+                                <option value="in" selected>INDIA</option>
+                            </select>
                             
                             
                         </div>
@@ -240,11 +258,11 @@
         <div class="modal-body">
             <div class="row">
                 <div class="col-sm-6 text-center">
-                    <img src="{{ userAsset('img/flag/in1.jpg')}}">
+                    <img src="{{ userAsset('img/flag/in30.jpg')}}">
                     <a href="{{ url('/in/')}}" class="country-flag popup-with-zoom-anim country-slector" data-country-code="in" data-tippy-placement="left" data-tippy="">India</a>
                 </div>
                 <div class="col-sm-6 text-center">
-                    <img src="{{ userAsset('img/flag/uae1.jpg')}}">
+                    <img src="{{ userAsset('img/flag/uae30.jpg')}}">
                     <a href="{{ url('/uae/')}}" class="country-flag popup-with-zoom-anim country-slector" data-country-code="uae" data-tippy-placement="left" data-tippy="">UAE</a>
                 </div>
             </div>
@@ -283,7 +301,17 @@
 
 <script>
     $(document).ready(function() {
-        
+        Body.on('change', '#country-selection', function() {
+            var symbol = $(this).val();
+            var redirectTo = '{{request()->headers->get('host')}}';
+            
+            if (symbol == 'uae') {
+                location.assign('/hsquare/uae');
+            } else {
+                location.assign('/hsquare/in');
+            }
+
+        });
     });
 </script>
 
