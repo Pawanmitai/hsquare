@@ -30,20 +30,26 @@
                     </div>
                     
                     
-                     <div class="col-md-5">
-                        <div class="ltn__top-bar-menu">
-                            <ul>
-                                <li><a href="#">ABOUT US <a></li>|
-                                <li><a href="#"> BLOG </a></li>|
-                                <li><a href="#">CARRIER <a></li>|
-                                <li><a href="#"> CONTACT US </a></li>
-                            </ul>
-                        </div>
-                    </div>
+                    <!-- <div class="col-md-5  d-none d-sm-inline ">-->
+                    <!--    <div class="ltn__top-bar-menu">-->
+                    <!--        <ul>-->
+                          <!--  <li>     -->
+                          <!--   <nav>                        -->
+                          <!-- <a href="#">ABOUT US</a> &nbsp | &nbsp-->
+                          <!-- <a href="#">BLOG</a> &nbsp | &nbsp -->
+                          <!-- <a href="#">CARRIER</a> &nbsp | &nbsp-->
+                          <!-- <a href="#">CONTACT US</a>-->
+
+         
+                          <!--</nav>-->
+                          <!--  </li>-->
+                    <!--        </ul>-->
+                    <!--    </div>-->
+                    <!--</div>-->
                     
                     
                     
-                    <div class="col-md-2">
+                    <div class="col-md-7  d-none d-sm-inline">
                         <div class="top-bar-right text-end">
                             <div class="ltn__top-bar-menu">
                                 <ul>
@@ -67,22 +73,33 @@
                                     <li>
                                         <!-- ltn__social-media -->
                                         <div class="ltn__social-media">
-                                            <ul>
-                                                <li><a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
-                                                <li><a href="#" title="Twitter"><i class="fab fa-twitter"></i></a></li>
+                                         <ul>
+                                        <li>     
+                                        <nav>                        
+                           <a href="#">ABOUT US</a> &nbsp | &nbsp
+                           <a href="#">BLOG</a> &nbsp | &nbsp 
+                           <a href="#">CARRIER</a> &nbsp | &nbsp
+                           <a href="#">CONTACT US</a>&nbsp | &nbsp
+
+                                                 
                                                 
-                                                <li><a href="#" title="Instagram"><i class="fab fa-instagram"></i></a></li>
+                                                <a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a>&nbsp | &nbsp
+                                                <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>&nbsp | &nbsp
+                                                
+                                                <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
                                                 <!--<li><a href="#" title="Dribbble"><i class="fab fa-dribbble"></i></a></li>-->
+                                                </nav>
+                                              </li>
                                             </ul>
                                         </div>
                                     </li>
-                                    <li>
-                                        <!-- header-top-btn -->
-                                        <!--<div class="header-top-btn">-->
-                                        <!--    <a href="login.html">Agent Portal</a>-->
+                                    <!--<li>-->
+                                    <!--     header-top-btn -->
+                                    <!--    <div class="header-top-btn">-->
+                                    <!--        <a href="login.html">Agent Portal</a>-->
                                              
-                                        <!--</div>-->
-                                    </li>
+                                    <!--    </div>-->
+                                    <!--</li>-->
                                 </ul>
                             </div>
                         </div>
@@ -99,7 +116,7 @@
                     <div class="col">
                         <div class="site-logo-wrap">
                             <div class="site-logo">
-                                <a1 href="index.html"><img src="{{ userAsset('img/Hsquare-Logo4.png')}}" alt="Logo"></a1>
+                               <a1 href="#"> <a href="{{ url_helper('/') }}"><img src="{{ userAsset('img/Hsquare-Logo4.png')}}" alt="Logo"></a></a1>
                             </div>
 
                             
@@ -114,37 +131,14 @@
                                 </div>
                             </div>
 
-                            
-                            {{-- @if(Request::segment(1) === 'uae')
-                                <a href="javascript:void(0)" data-toggle="modal" class="shadow-none" data-tippy-placement="right" data-tippy="">
-                                    <img src="{{ userAsset('img/flag/uae30.jpg')}}">
-                                </a>
-                            @else
-                            <a href="javascript:void(0)" data-toggle="modal" class="shadow-none" data-tippy-placement="right" data-tippy="">
-                                <img src="{{ userAsset('img/flag/in30.jpg')}}">
-                            </a>
-                               
-                            @endif --}}
-
-                            {{-- <ul class="list">
-                                <li data-value="uae" class="option selected focus"><img src="{{ userAsset('img/flag/uae30.jpg')}}"></li>
-                                <li data-value="in" class="option"><img src="{{ userAsset('img/flag/uae30.jpg')}}"></li>
-                            </ul> --}}
-
-                            {{-- <div class="nice-select" tabindex="0">
-                                <span class="current"></span>
+                            <div class="nice-select" tabindex="0">
+                                <span class="current country-selected"><img src="{{ userAsset('img/flag/in.png')}}"></span>
                                 <ul class="list">
-                                    <li data-value="in" style="background-image:url({{ userAsset('img/flag/in1.jpg')}});" class="option selected"></li>
-                                    <li data-value="uae" style="background-image:url({{ userAsset('img/flag/uae1.jpg')}});" class="option"></li>
+                                    <li data-value="in" class="country-select" data-image="{{ userAsset('img/flag/in.png')}}"><img src="{{ userAsset('img/flag/in.png')}}"> &nbsp; India</li>
+                                    <li data-value="uae" class="country-select" data-image="{{ userAsset('img/flag/uae.png')}}"><img src="{{ userAsset('img/flag/uae.png')}}"> &nbsp; Uae</li>
                                 </ul>
-                            </div> --}}
+                            </div>
 
-                            <select name="country" id="country-selection">
-                                <option value="uae">UAE</option>
-                                <option value="in" selected>INDIA</option>
-                            </select>
-                            
-                            
                         </div>
                         
                     </div>
@@ -190,7 +184,7 @@
                                         <!--<li><a href="{{ url_helper('project') }}">PROJECTS</a></li>-->
                                             
                                         <!--<li><a href="{{ url_helper('mortagage-assist')}}">MORTAGAGE ASSIST</a></li>-->
-                                            <li><a href="{{ url_helper('mortagage-assist')}}">TRENDING</a></li>
+                                            <li><a href="{{ url_helper('#')}}">TRENDING</a></li>
                                         <!--<li class="menu-icon"><a href="#">ADVICE</a>-->
                                           <li class="menu-icon"><a href="#">HSQUARE HUB</a>
                                             <ul>
@@ -300,14 +294,30 @@
 @yield('js-add')
 
 <script>
+    function countryCheck() {
+        var segment = '{{Request::segment(1)}}';
+        if (segment == 'uae') {
+                $('.country-selected').empty();
+                $('.country-selected').html('<img src="{{ userAsset('img/flag/uae.png')}}">');
+        } else {
+            $('.country-selected').empty();
+            $('.country-selected').html('<img src="{{ userAsset('img/flag/in.png')}}">');
+        }
+    }
+    
     $(document).ready(function() {
-        Body.on('change', '#country-selection', function() {
-            var symbol = $(this).val();
+        countryCheck();
+        Body.on('click', '.country-select', function() {
+            var symbol = $(this).data('value');
             var redirectTo = '{{request()->headers->get('host')}}';
-            
+           
             if (symbol == 'uae') {
+                $('.country-selected').empty();
+                $('.country-selected').html('<img src="{{ userAsset('img/flag/uae.png')}}">');
                 location.assign('/hsquare/uae');
             } else {
+                $('.country-selected').empty();
+                $('.country-selected').html('<img src="{{ userAsset('img/flag/in.png')}}">');
                 location.assign('/hsquare/in');
             }
 
