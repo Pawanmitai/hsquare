@@ -298,10 +298,10 @@
         var segment = '{{Request::segment(1)}}';
         if (segment == 'uae') {
                 $('.country-selected').empty();
-                $('.country-selected').html('<img src="{{ userAsset('img/flag/uae.png')}}">');
+                $('.country-selected').html('<img src="{{ userAsset('img/flag/uae.png')}}"> &nbsp; UAE');
         } else {
             $('.country-selected').empty();
-            $('.country-selected').html('<img src="{{ userAsset('img/flag/in.png')}}">');
+            $('.country-selected').html('<img src="{{ userAsset('img/flag/in.png')}}"> &nbsp; IND');
         }
     }
     
@@ -313,11 +313,11 @@
            
             if (symbol == 'uae') {
                 $('.country-selected').empty();
-                $('.country-selected').html('<img src="{{ userAsset('img/flag/uae.png')}}">');
+                $('.country-selected').html('<img src="{{ userAsset('img/flag/uae.png')}}"> &nbsp; UAE');
                 location.assign('/hsquare/uae');
             } else {
                 $('.country-selected').empty();
-                $('.country-selected').html('<img src="{{ userAsset('img/flag/in.png')}}">');
+                $('.country-selected').html('<img src="{{ userAsset('img/flag/in.png')}}"> &nbsp; IND');
                 location.assign('/hsquare/in');
             }
 
