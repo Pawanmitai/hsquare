@@ -83,10 +83,10 @@
 
                                                  
                                                 
-                                                <a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a>&nbsp | &nbsp
-                                                <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>&nbsp | &nbsp
+                                                <a href="#" title="Facebook" class="fab fa-facebook-f"></a> &nbsp &nbsp
+                                                <a href="#" title="Twitter" class="fab fa-twitter"></a>&nbsp &nbsp
                                                 
-                                                <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+                                                <a href="#" title="Instagram" class="fab fa-instagram"></a>
                                                 <!--<li><a href="#" title="Dribbble"><i class="fab fa-dribbble"></i></a></li>-->
                                                 </nav>
                                               </li>
@@ -134,8 +134,8 @@
                             <div class="nice-select" tabindex="0">
                                 <span class="current country-selected"><img src="{{ userAsset('img/flag/in.png')}}"></span>
                                 <ul class="list">
-                                    <li data-value="in" class="country-select" data-image="{{ userAsset('img/flag/in.png')}}"><img src="{{ userAsset('img/flag/in.png')}}"> &nbsp; India</li>
-                                    <li data-value="uae" class="country-select" data-image="{{ userAsset('img/flag/uae.png')}}"><img src="{{ userAsset('img/flag/uae.png')}}"> &nbsp; Uae</li>
+                                    <li data-value="in" class="country-select" data-image="{{ userAsset('img/flag/in.png')}}"><img src="{{ userAsset('img/flag/in.png')}}"> &nbsp;IND</li>
+                                    <li data-value="uae" class="country-select" data-image="{{ userAsset('img/flag/uae.png')}}"><img src="{{ userAsset('img/flag/uae.png')}}"> &nbsp;UAE</li>
                                 </ul>
                             </div>
 
@@ -157,26 +157,26 @@
                                         </li>
                                         <!--<li><a href="{{ url_helper('offer')}}">OFFERS</a></li>-->
                                          <!--<li><a href="{{ url_helper('project') }}">SERVICES</a></li>-->
-                                         <li class="menu-icon"><a href="#">SERVICES</a>
+                                         <li class="menu-icon"><a href="{{ url_helper('service')}}">SERVICES</a>
                                              <ul>
                                                
-                                                <li><a href="{{ url_helper('#') }}">Residential</a></li>
-                                                <li><a href="{{ url_helper('#') }}">Commercial</a></li>
-                                                <li><a href="{{ url_helper('#') }}">Tenant & Occupies</a></li>
-                                                <li><a href="{{ url_helper('#') }}">Lands</a></li>
+                                                <li><a href="{{ url_helper('residential') }}">Residential</a></li>
+                                                <li><a href="{{ url_helper('commercial') }}">Commercial</a></li>
+                                                <li><a href="{{ url_helper('tenant-&-occupies') }}">Tenant & Occupies</a></li>
+                                                <li><a href="{{ url_helper('lands') }}">Lands</a></li>
                                             </ul>
                                         </li> 
-                                        <li class="menu-icon"><a href="#">PROPERTIES</a>
+                                        <li class="menu-icon"><a href="{{ url_helper('properties')}}">PROPERTIES</a>
                                         <ul> 
                                         <li class="sub-menu-icon"><a href="#">Residential</a>
                                         <ul>
-                                         <li><a href="{{ url_helper('#') }}">Sale</a></li>
-                                                <li><a href="{{ url_helper('#') }}">Lesae</a></li>
-                                                <li><a href="{{ url_helper('#') }}">View All</a></li>    
+                                         <li><a href="{{ url_helper('sale') }}">Sale</a></li>
+                                                <li><a href="{{ url_helper('lease') }}">Lease</a></li>
+                                                <li><a href="{{ url_helper('view-all') }}">View All</a></li>    
                                             
                                         </ul>
                                         </li>
-                                         <li><a href="{{ url_helper('#') }}">Commercial</a></li>
+                                         <li><a href="{{ url_helper('commercial') }}">Commercial</a></li>
                                         </ul>
                                         </li>
                                           <!--<li><a href="{{ url_helper('project') }}">PROPERTIES</a></li>-->
@@ -184,7 +184,7 @@
                                         <!--<li><a href="{{ url_helper('project') }}">PROJECTS</a></li>-->
                                             
                                         <!--<li><a href="{{ url_helper('mortagage-assist')}}">MORTAGAGE ASSIST</a></li>-->
-                                            <li><a href="{{ url_helper('#')}}">TRENDING</a></li>
+                                            <li><a href="{{ url_helper('trending')}}">TRENDING</a></li>
                                         <!--<li class="menu-icon"><a href="#">ADVICE</a>-->
                                           <li class="menu-icon"><a href="#">HSQUARE HUB</a>
                                             <ul>
@@ -204,7 +204,7 @@
                     <div class="col ltn__header-options ltn__header-options-2 mb-sm-20">
                         
                         <!-- user-menu -->
-                        <div class="ltn__drop-menu user-menu">
+                        <div class="ltn__drop-menu user-menu  d-none d-sm-inline">
                             <ul>
                                 <li>
                                     <a href="#"><i class="icon-user"></i></a>
@@ -220,8 +220,8 @@
                         </div>
                        
                         <!-- Mobile Menu Button -->
-                        <div class="mobile-menu-toggle d-xl-none">
-                            <a href="#ltn__utilize-mobile-menu" class="ltn__utilize-toggle">
+                        <div class="mobile-menu-toggle d-xl-none ">
+                            <a href="#ltn__utilize-mobile-menu" class="ltn__utilize-toggle ">
                                 <svg viewBox="0 0 800 600">
                                     <path d="M300,220 C300,220 520,220 540,220 C740,220 640,540 520,420 C440,340 300,200 300,200" id="top"></path>
                                     <path d="M300,320 L540,320" id="middle"></path>
@@ -253,7 +253,7 @@
             <div class="row">
                 <div class="col-sm-6 text-center">
                     <img src="{{ userAsset('img/flag/in30.jpg')}}">
-                    <a href="{{ url('/in/')}}" class="country-flag popup-with-zoom-anim country-slector" data-country-code="in" data-tippy-placement="left" data-tippy="">India</a>
+                    <a href="{{ url('/in/')}}" class="country-flag popup-with-zoom-anim country-slector" data-country-code="in" data-tippy-placement="left" data-tippy="">Ind</a>
                 </div>
                 <div class="col-sm-6 text-center">
                     <img src="{{ userAsset('img/flag/uae30.jpg')}}">
